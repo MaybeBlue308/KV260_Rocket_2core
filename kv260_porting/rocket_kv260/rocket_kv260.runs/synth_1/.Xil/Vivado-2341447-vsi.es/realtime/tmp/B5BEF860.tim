@@ -1,0 +1,7 @@
+s _system_auto_cbus_fixedClockNode_anon_out_clock _system_debug_dmactive       4260 -2147483648 -2147483648       4260
+t _system_auto_cbus_fixedClockNode_anon_out_clock _gated_clock_debug_clock_gate_out       6430 -2147483648 -2147483648       6430
+c _system_auto_cbus_fixedClockNode_anon_out_clock _gated_clock_debug_clock_gate_out       4800       4800 -2147483648 -2147483648
+t _system_auto_cbus_fixedClockNode_anon_out_clock     debug_reset       1140 -2147483648 -2147483648       1140
+t _system_auto_cbus_fixedClockNode_anon_out_clock _dmactiveAck_dmactiveAck_io_q       1140 -2147483648 -2147483648       1140
+s _system_auto_cbus_fixedClockNode_anon_out_clock _dmactiveAck_dmactiveAck_io_q       1420 -2147483648 -2147483648       1420
+t        jtag_TCK _system_debug_systemjtag_reset_catcher_io_sync_reset       1140 -2147483648 -2147483648       1140

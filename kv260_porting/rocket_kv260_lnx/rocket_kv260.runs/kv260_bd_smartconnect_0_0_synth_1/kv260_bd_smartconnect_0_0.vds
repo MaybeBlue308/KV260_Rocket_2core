@@ -1,0 +1,562 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Oct 15 09:13:22 2026
+# Process ID         : 1767508
+# Current directory  : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1
+# Command line       : vivado -log kv260_bd_smartconnect_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_bd_smartconnect_0_0.tcl
+# Log file           : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/kv260_bd_smartconnect_0_0.vds
+# Journal file       : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/vivado.jou
+# Running On         : vsi.es
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-14900
+# CPU Frequency      : 2588.581 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 67087 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 75677 MB
+# Available Virtual  : 36148 MB
+#-----------------------------------------------------------
+source kv260_bd_smartconnect_0_0.tcl -notrace
+Command: synth_design -top kv260_bd_smartconnect_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1768093
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2739.672 ; gain = 142.688 ; free physical = 11594 ; free virtual = 32642
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_smartconnect_0_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/synth/kv260_bd_smartconnect_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_10PK7U2' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:712]
+INFO: [Synth 8-638] synthesizing module 'bd_62a4_psr_aclk_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_62a4_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_62a4_psr_aclk_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1371]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1387]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1413]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1436]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1460]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/ssd3/tools/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318' bound to instance 'POR_SRL_I' of component 'SRL16' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/ssd3/tools/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/ssd3/tools/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165318]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at '/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_EXT' of component 'xpm_cdc_single' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:968]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at '/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_AUX' of component 'xpm_cdc_single' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1015]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+INFO: [Synth 8-256] done synthesizing module 'bd_62a4_psr_aclk_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_62a4_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_62a4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:743]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_62a4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:743]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_62a4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:743]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_62a4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:743]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_62a4_psr_aclk_0' has 10 connections declared, but only 6 given [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:743]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_10PK7U2' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:712]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_YNDQI9' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:752]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_m00e_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_62a4_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_m00e_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_62a4_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_YNDQI9' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:752]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_m00s2a_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_62a4_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_m00s2a_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_62a4_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_s00a2s_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_62a4_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_s00a2s_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_62a4_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_1YYYNOY' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:1050]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_s00mmu_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_62a4_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_s00mmu_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_62a4_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_s00sic_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_62a4_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_s00sic_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_62a4_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_s00tr_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_62a4_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_s00tr_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_62a4_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_1YYYNOY' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:1050]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_1T1SNL4' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:1622]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_sarn_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_62a4_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_sarn_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_62a4_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_sawn_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_62a4_sawn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_sawn_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_62a4_sawn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_sbn_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_62a4_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_sbn_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_62a4_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_srn_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_62a4_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized1' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized1' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized1' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_srn_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_62a4_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_62a4_swn_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_62a4_swn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized2' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized2' [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized2' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized2' (0#1) [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8996]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4_swn_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_62a4_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_1T1SNL4' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:1622]
+INFO: [Synth 8-6155] done synthesizing module 'bd_62a4' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_smartconnect_0_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/synth/kv260_bd_smartconnect_0_0.v:53]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_10PK7U2 does not have driver. [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/bd_62a4.v:728]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+INFO: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port rsta in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[105] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[104] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[103] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[102] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[101] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[100] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[99] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[98] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[97] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[96] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[95] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[94] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[93] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[92] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[91] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[90] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[89] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[88] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[87] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[86] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[85] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[84] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[83] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[82] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[81] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[80] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[79] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[78] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[77] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[76] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[75] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[74] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[73] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[72] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[71] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[70] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[69] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[68] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[67] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[66] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[65] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[64] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[63] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[62] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[61] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[60] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[59] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[58] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[57] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[56] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[55] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[54] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[53] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[52] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[51] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[50] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[49] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[48] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[47] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[46] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[45] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[44] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[43] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[42] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[41] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[40] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[39] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[38] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[37] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[36] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[35] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[34] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[33] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[32] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[31] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[30] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[29] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[28] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[27] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[26] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[25] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[24] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[23] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[22] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[21] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[20] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[19] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[18] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2967.320 ; gain = 370.336 ; free physical = 10723 ; free virtual = 32384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2967.320 ; gain = 370.336 ; free physical = 10606 ; free virtual = 32376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2967.320 ; gain = 370.336 ; free physical = 10605 ; free virtual = 32376
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2967.320 ; gain = 0.000 ; free physical = 10028 ; free virtual = 32355
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/ooc.xdc] for cell 'inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_62a4_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_62a4_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/smartconnect.xdc] for cell 'inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/smartconnect.xdc] for cell 'inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kv260_bd_smartconnect_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/kv260_bd_smartconnect_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/ssd3/tools/Xilinx/2025.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kv260_bd_smartconnect_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/kv260_bd_smartconnect_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 21 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3166.848 ; gain = 0.000 ; free physical = 9553 ; free virtual = 32149
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  SRL16 => SRL16E: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3166.883 ; gain = 0.000 ; free physical = 9547 ; free virtual = 32145
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3166.883 ; gain = 569.898 ; free physical = 9451 ; free virtual = 32277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3174.852 ; gain = 577.867 ; free physical = 9450 ; free virtual = 32276
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3174.852 ; gain = 577.867 ; free physical = 9434 ; free virtual = 32260
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.gen_write.write_cs_reg' in module 'sc_mmu_v1_0_16_decerr_slave'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.w_state_reg' in module 'sc_mmu_v1_0_16_top'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.r_state_reg' in module 'sc_mmu_v1_0_16_top'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'aw_state_reg' in module 'sc_si_converter_v1_0_16_reduced_area'
+INFO: [Synth 8-802] inferred FSM for state register 'w_state_reg' in module 'sc_si_converter_v1_0_16_reduced_area'
+INFO: [Synth 8-802] inferred FSM for state register 'b_state_reg' in module 'sc_si_converter_v1_0_16_reduced_area'
+INFO: [Synth 8-802] inferred FSM for state register 'ar_state_reg' in module 'sc_si_converter_v1_0_16_reduced_area'
+INFO: [Synth 8-802] inferred FSM for state register 'r_state_reg' in module 'sc_si_converter_v1_0_16_reduced_area'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'sc_si_converter_v1_0_16_reduced_area'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs_reg' using encoding 'one-hot' in module 'sc_mmu_v1_0_16_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 W_STALL |                               01 | 00000000000000000000000000000001
+               W_PENDING |                               10 | 00000000000000000000000000000010
+                W_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.w_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_16_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 | 00000000000000000000000000000000
+*
+                 R_STALL |                             0010 | 00000000000000000000000000000001
+               R_PENDING |                             0100 | 00000000000000000000000000000010
+                R_DECERR |                             1000 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.r_state_reg' using encoding 'one-hot' in module 'sc_mmu_v1_0_16_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  B_IDLE |                               00 | 00000000000000000000000000000000
+                 B_ACCUM |                               01 | 00000000000000000000000000000001
+                  B_INCR |                               10 | 00000000000000000000000000000010
+                   B_OUT |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'b_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_16_reduced_area'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  W_IDLE |                           000001 | 00000000000000000000000000000000
+             W_SINGLES_1 |                           000010 | 00000000000000000000000000000001
+               W_SINGLES |                           000100 | 00000000000000000000000000000010
+                  W_NULL |                           001000 | 00000000000000000000000000000100
+                  W_INCR |                           010000 | 00000000000000000000000000000011
+              W_COMPLETE |                           100000 | 00000000000000000000000000000101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'w_state_reg' using encoding 'one-hot' in module 'sc_si_converter_v1_0_16_reduced_area'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 AW_IDLE |                               00 | 00000000000000000000000000000000
+             AW_SINGLE_1 |                               01 | 00000000000000000000000000000010
+               AW_SINGLE |                               10 | 00000000000000000000000000000001
+                AW_BURST |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'aw_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_16_reduced_area'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  R_IDLE |                              000 | 00000000000000000000000000000000
+               R_SPLIT_1 |                              001 | 00000000000000000000000000000010
+                 R_SPLIT |                              010 | 00000000000000000000000000000001
+                  R_WAIT |                              011 | 00000000000000000000000000000101
+               R_SPLIT_2 |                              100 | 00000000000000000000000000000011
+                  R_INCR |                              101 | 00000000000000000000000000000100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_16_reduced_area'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 RD_IDLE |                                0 | 00000000000000000000000000000000
+                 RD_DATA |                                1 | 00000000000000000000000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_16_reduced_area'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 AR_IDLE |                               00 | 00000000000000000000000000000000
+               AR_SINGLE |                               01 | 00000000000000000000000000000001
+                AR_BURST |                               10 | 00000000000000000000000000000010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ar_state_reg' using encoding 'sequential' in module 'sc_si_converter_v1_0_16_reduced_area'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3174.852 ; gain = 577.867 ; free physical = 9282 ; free virtual = 32112
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/FDRE_inst) is unused and will be removed from module bd_62a4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_62a4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_62a4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_62a4.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 3174.852 ; gain = 577.867 ; free physical = 8777 ; free virtual = 31624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 3681.266 ; gain = 1084.281 ; free physical = 8350 ; free virtual = 31264
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 3770.906 ; gain = 1173.922 ; free physical = 8352 ; free virtual = 31271
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3778.914 ; gain = 1181.930 ; free physical = 8254 ; free virtual = 31174
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8232 ; free virtual = 31155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8232 ; free virtual = 31155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8178 ; free virtual = 31101
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8174 ; free virtual = 31097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8148 ; free virtual = 31072
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8148 ; free virtual = 31072
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |     7|
+|2     |LUT1     |    79|
+|3     |LUT2     |   323|
+|4     |LUT3     |   323|
+|5     |LUT4     |   230|
+|6     |LUT5     |   230|
+|7     |LUT6     |   370|
+|8     |RAM32M   |     2|
+|9     |RAM32M16 |    22|
+|10    |SRL16    |     1|
+|11    |SRL16E   |    14|
+|12    |SRLC32E  |     9|
+|13    |FDCE     |    42|
+|14    |FDRE     |  1287|
+|15    |FDSE     |    68|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8148 ; free virtual = 31072
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 3905.727 ; gain = 1109.180 ; free physical = 8182 ; free virtual = 31107
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3905.727 ; gain = 1308.742 ; free physical = 8180 ; free virtual = 31105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3905.727 ; gain = 0.000 ; free physical = 8205 ; free virtual = 31132
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3905.727 ; gain = 0.000 ; free physical = 8218 ; free virtual = 31148
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 22 instances
+  SRL16 => SRL16E: 1 instance 
+
+Synth Design complete | Checksum: d1bb58c5
+INFO: [Common 17-83] Releasing license: Synthesis
+230 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 3905.727 ; gain = 2334.250 ; free physical = 8204 ; free virtual = 31134
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3100.413; main = 2962.570; forked = 279.249
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4778.285; main = 3840.047; forked = 994.367
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3905.727 ; gain = 0.000 ; free physical = 8213 ; free virtual = 31144
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/kv260_bd_smartconnect_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP kv260_bd_smartconnect_0_0, cache-ID = c6540ebc15a640bb
+INFO: [Coretcl 2-1174] Renamed 130 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3905.727 ; gain = 0.000 ; free physical = 8325 ; free virtual = 31267
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/kv260_bd_smartconnect_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file kv260_bd_smartconnect_0_0_utilization_synth.rpt -pb kv260_bd_smartconnect_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 09:14:04 2026...

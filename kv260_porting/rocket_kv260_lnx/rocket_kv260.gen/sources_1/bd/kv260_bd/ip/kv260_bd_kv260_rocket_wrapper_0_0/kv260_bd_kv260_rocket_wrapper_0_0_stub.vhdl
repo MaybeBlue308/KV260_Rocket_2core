@@ -1,0 +1,213 @@
+-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+-- Date        : Thu Oct 15 09:17:44 2026
+-- Host        : vsi.es running 64-bit Ubuntu 24.04.4 LTS
+-- Command     : write_vhdl -force -mode synth_stub
+--               /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_stub.vhdl
+-- Design      : kv260_bd_kv260_rocket_wrapper_0_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xck26-sfvc784-2LV-c
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity kv260_bd_kv260_rocket_wrapper_0_0 is
+  Port ( 
+    clk : in STD_LOGIC;
+    resetn : in STD_LOGIC;
+    ps_gpio_o : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    ps_gpio_i : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    uart_txd : out STD_LOGIC;
+    uart_rxd : in STD_LOGIC;
+    spi0_sck : out STD_LOGIC;
+    spi0_cs_n : out STD_LOGIC;
+    spi0_mosi : out STD_LOGIC;
+    spi0_miso : in STD_LOGIC;
+    spi1_sck : out STD_LOGIC;
+    spi1_cs_n : out STD_LOGIC;
+    spi1_mosi : out STD_LOGIC;
+    spi1_miso : in STD_LOGIC;
+    m_axi_mem_awid : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_awaddr : out STD_LOGIC_VECTOR ( 39 downto 0 );
+    m_axi_mem_awlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axi_mem_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mem_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mem_awlock : out STD_LOGIC;
+    m_axi_mem_awcache : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_awprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mem_awqos : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_awvalid : out STD_LOGIC;
+    m_axi_mem_awready : in STD_LOGIC;
+    m_axi_mem_wdata : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axi_mem_wstrb : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axi_mem_wlast : out STD_LOGIC;
+    m_axi_mem_wvalid : out STD_LOGIC;
+    m_axi_mem_wready : in STD_LOGIC;
+    m_axi_mem_bid : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mem_bvalid : in STD_LOGIC;
+    m_axi_mem_bready : out STD_LOGIC;
+    m_axi_mem_arid : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_araddr : out STD_LOGIC_VECTOR ( 39 downto 0 );
+    m_axi_mem_arlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axi_mem_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mem_arburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mem_arlock : out STD_LOGIC;
+    m_axi_mem_arcache : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_arprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mem_arqos : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_arvalid : out STD_LOGIC;
+    m_axi_mem_arready : in STD_LOGIC;
+    m_axi_mem_rid : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mem_rdata : in STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axi_mem_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mem_rlast : in STD_LOGIC;
+    m_axi_mem_rvalid : in STD_LOGIC;
+    m_axi_mem_rready : out STD_LOGIC;
+    m_axi_mmio_awid : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_awaddr : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    m_axi_mmio_awlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axi_mmio_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mmio_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mmio_awlock : out STD_LOGIC;
+    m_axi_mmio_awcache : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_awprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mmio_awqos : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_awvalid : out STD_LOGIC;
+    m_axi_mmio_awready : in STD_LOGIC;
+    m_axi_mmio_wdata : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axi_mmio_wstrb : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axi_mmio_wlast : out STD_LOGIC;
+    m_axi_mmio_wvalid : out STD_LOGIC;
+    m_axi_mmio_wready : in STD_LOGIC;
+    m_axi_mmio_bid : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mmio_bvalid : in STD_LOGIC;
+    m_axi_mmio_bready : out STD_LOGIC;
+    m_axi_mmio_arid : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_araddr : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    m_axi_mmio_arlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axi_mmio_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mmio_arburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mmio_arlock : out STD_LOGIC;
+    m_axi_mmio_arcache : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_arprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axi_mmio_arqos : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_arvalid : out STD_LOGIC;
+    m_axi_mmio_arready : in STD_LOGIC;
+    m_axi_mmio_rid : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axi_mmio_rdata : in STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axi_mmio_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axi_mmio_rlast : in STD_LOGIC;
+    m_axi_mmio_rvalid : in STD_LOGIC;
+    m_axi_mmio_rready : out STD_LOGIC
+  );
+
+  attribute CHECK_LICENSE_TYPE : string;
+  attribute CHECK_LICENSE_TYPE of kv260_bd_kv260_rocket_wrapper_0_0 : entity is "kv260_bd_kv260_rocket_wrapper_0_0,kv260_rocket_wrapper,{}";
+  attribute CORE_GENERATION_INFO : string;
+  attribute CORE_GENERATION_INFO of kv260_bd_kv260_rocket_wrapper_0_0 : entity is "kv260_bd_kv260_rocket_wrapper_0_0,kv260_rocket_wrapper,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=kv260_rocket_wrapper,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,MEM_PS_BASE=0x0800000000}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of kv260_bd_kv260_rocket_wrapper_0_0 : entity is "yes";
+  attribute IP_DEFINITION_SOURCE : string;
+  attribute IP_DEFINITION_SOURCE of kv260_bd_kv260_rocket_wrapper_0_0 : entity is "module_ref";
+end kv260_bd_kv260_rocket_wrapper_0_0;
+
+architecture stub of kv260_bd_kv260_rocket_wrapper_0_0 is
+  attribute syn_black_box : boolean;
+  attribute black_box_pad_pin : string;
+  attribute syn_black_box of stub : architecture is true;
+  attribute black_box_pad_pin of stub : architecture is "clk,resetn,ps_gpio_o[7:0],ps_gpio_i[7:0],uart_txd,uart_rxd,spi0_sck,spi0_cs_n,spi0_mosi,spi0_miso,spi1_sck,spi1_cs_n,spi1_mosi,spi1_miso,m_axi_mem_awid[3:0],m_axi_mem_awaddr[39:0],m_axi_mem_awlen[7:0],m_axi_mem_awsize[2:0],m_axi_mem_awburst[1:0],m_axi_mem_awlock,m_axi_mem_awcache[3:0],m_axi_mem_awprot[2:0],m_axi_mem_awqos[3:0],m_axi_mem_awvalid,m_axi_mem_awready,m_axi_mem_wdata[63:0],m_axi_mem_wstrb[7:0],m_axi_mem_wlast,m_axi_mem_wvalid,m_axi_mem_wready,m_axi_mem_bid[3:0],m_axi_mem_bresp[1:0],m_axi_mem_bvalid,m_axi_mem_bready,m_axi_mem_arid[3:0],m_axi_mem_araddr[39:0],m_axi_mem_arlen[7:0],m_axi_mem_arsize[2:0],m_axi_mem_arburst[1:0],m_axi_mem_arlock,m_axi_mem_arcache[3:0],m_axi_mem_arprot[2:0],m_axi_mem_arqos[3:0],m_axi_mem_arvalid,m_axi_mem_arready,m_axi_mem_rid[3:0],m_axi_mem_rdata[63:0],m_axi_mem_rresp[1:0],m_axi_mem_rlast,m_axi_mem_rvalid,m_axi_mem_rready,m_axi_mmio_awid[3:0],m_axi_mmio_awaddr[31:0],m_axi_mmio_awlen[7:0],m_axi_mmio_awsize[2:0],m_axi_mmio_awburst[1:0],m_axi_mmio_awlock,m_axi_mmio_awcache[3:0],m_axi_mmio_awprot[2:0],m_axi_mmio_awqos[3:0],m_axi_mmio_awvalid,m_axi_mmio_awready,m_axi_mmio_wdata[63:0],m_axi_mmio_wstrb[7:0],m_axi_mmio_wlast,m_axi_mmio_wvalid,m_axi_mmio_wready,m_axi_mmio_bid[3:0],m_axi_mmio_bresp[1:0],m_axi_mmio_bvalid,m_axi_mmio_bready,m_axi_mmio_arid[3:0],m_axi_mmio_araddr[31:0],m_axi_mmio_arlen[7:0],m_axi_mmio_arsize[2:0],m_axi_mmio_arburst[1:0],m_axi_mmio_arlock,m_axi_mmio_arcache[3:0],m_axi_mmio_arprot[2:0],m_axi_mmio_arqos[3:0],m_axi_mmio_arvalid,m_axi_mmio_arready,m_axi_mmio_rid[3:0],m_axi_mmio_rdata[63:0],m_axi_mmio_rresp[1:0],m_axi_mmio_rlast,m_axi_mmio_rvalid,m_axi_mmio_rready";
+  attribute X_INTERFACE_INFO : string;
+  attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
+  attribute X_INTERFACE_MODE : string;
+  attribute X_INTERFACE_MODE of clk : signal is "slave";
+  attribute X_INTERFACE_PARAMETER : string;
+  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_BUSIF m_axi_mem:m_axi_mmio, ASSOCIATED_RESET resetn, FREQ_HZ 99999001, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN kv260_bd_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of resetn : signal is "xilinx.com:signal:reset:1.0 resetn RST";
+  attribute X_INTERFACE_MODE of resetn : signal is "slave";
+  attribute X_INTERFACE_PARAMETER of resetn : signal is "XIL_INTERFACENAME resetn, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of m_axi_mem_awid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWID";
+  attribute X_INTERFACE_MODE of m_axi_mem_awid : signal is "master";
+  attribute X_INTERFACE_PARAMETER of m_axi_mem_awid : signal is "XIL_INTERFACENAME m_axi_mem, DATA_WIDTH 64, PROTOCOL AXI4, FREQ_HZ 99999001, ID_WIDTH 4, ADDR_WIDTH 40, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 256, PHASE 0.0, CLK_DOMAIN kv260_bd_zynq_ultra_ps_e_0_0_pl_clk0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of m_axi_mem_awaddr : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWADDR";
+  attribute X_INTERFACE_INFO of m_axi_mem_awlen : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWLEN";
+  attribute X_INTERFACE_INFO of m_axi_mem_awsize : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWSIZE";
+  attribute X_INTERFACE_INFO of m_axi_mem_awburst : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWBURST";
+  attribute X_INTERFACE_INFO of m_axi_mem_awlock : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWLOCK";
+  attribute X_INTERFACE_INFO of m_axi_mem_awcache : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWCACHE";
+  attribute X_INTERFACE_INFO of m_axi_mem_awprot : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWPROT";
+  attribute X_INTERFACE_INFO of m_axi_mem_awqos : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWQOS";
+  attribute X_INTERFACE_INFO of m_axi_mem_awvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWVALID";
+  attribute X_INTERFACE_INFO of m_axi_mem_awready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem AWREADY";
+  attribute X_INTERFACE_INFO of m_axi_mem_wdata : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem WDATA";
+  attribute X_INTERFACE_INFO of m_axi_mem_wstrb : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem WSTRB";
+  attribute X_INTERFACE_INFO of m_axi_mem_wlast : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem WLAST";
+  attribute X_INTERFACE_INFO of m_axi_mem_wvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem WVALID";
+  attribute X_INTERFACE_INFO of m_axi_mem_wready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem WREADY";
+  attribute X_INTERFACE_INFO of m_axi_mem_bid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem BID";
+  attribute X_INTERFACE_INFO of m_axi_mem_bresp : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem BRESP";
+  attribute X_INTERFACE_INFO of m_axi_mem_bvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem BVALID";
+  attribute X_INTERFACE_INFO of m_axi_mem_bready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem BREADY";
+  attribute X_INTERFACE_INFO of m_axi_mem_arid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARID";
+  attribute X_INTERFACE_INFO of m_axi_mem_araddr : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARADDR";
+  attribute X_INTERFACE_INFO of m_axi_mem_arlen : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARLEN";
+  attribute X_INTERFACE_INFO of m_axi_mem_arsize : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARSIZE";
+  attribute X_INTERFACE_INFO of m_axi_mem_arburst : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARBURST";
+  attribute X_INTERFACE_INFO of m_axi_mem_arlock : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARLOCK";
+  attribute X_INTERFACE_INFO of m_axi_mem_arcache : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARCACHE";
+  attribute X_INTERFACE_INFO of m_axi_mem_arprot : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARPROT";
+  attribute X_INTERFACE_INFO of m_axi_mem_arqos : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARQOS";
+  attribute X_INTERFACE_INFO of m_axi_mem_arvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARVALID";
+  attribute X_INTERFACE_INFO of m_axi_mem_arready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem ARREADY";
+  attribute X_INTERFACE_INFO of m_axi_mem_rid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem RID";
+  attribute X_INTERFACE_INFO of m_axi_mem_rdata : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem RDATA";
+  attribute X_INTERFACE_INFO of m_axi_mem_rresp : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem RRESP";
+  attribute X_INTERFACE_INFO of m_axi_mem_rlast : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem RLAST";
+  attribute X_INTERFACE_INFO of m_axi_mem_rvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem RVALID";
+  attribute X_INTERFACE_INFO of m_axi_mem_rready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mem RREADY";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWID";
+  attribute X_INTERFACE_MODE of m_axi_mmio_awid : signal is "master";
+  attribute X_INTERFACE_PARAMETER of m_axi_mmio_awid : signal is "XIL_INTERFACENAME m_axi_mmio, DATA_WIDTH 64, PROTOCOL AXI4, FREQ_HZ 99999001, ID_WIDTH 4, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 256, PHASE 0.0, CLK_DOMAIN kv260_bd_zynq_ultra_ps_e_0_0_pl_clk0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awaddr : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWADDR";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awlen : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWLEN";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awsize : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWSIZE";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awburst : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWBURST";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awlock : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWLOCK";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awcache : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWCACHE";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awprot : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWPROT";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awqos : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWQOS";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWVALID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_awready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio AWREADY";
+  attribute X_INTERFACE_INFO of m_axi_mmio_wdata : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio WDATA";
+  attribute X_INTERFACE_INFO of m_axi_mmio_wstrb : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio WSTRB";
+  attribute X_INTERFACE_INFO of m_axi_mmio_wlast : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio WLAST";
+  attribute X_INTERFACE_INFO of m_axi_mmio_wvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio WVALID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_wready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio WREADY";
+  attribute X_INTERFACE_INFO of m_axi_mmio_bid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio BID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_bresp : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio BRESP";
+  attribute X_INTERFACE_INFO of m_axi_mmio_bvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio BVALID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_bready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio BREADY";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_araddr : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARADDR";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arlen : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARLEN";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arsize : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARSIZE";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arburst : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARBURST";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arlock : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARLOCK";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arcache : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARCACHE";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arprot : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARPROT";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arqos : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARQOS";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARVALID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_arready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio ARREADY";
+  attribute X_INTERFACE_INFO of m_axi_mmio_rid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio RID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_rdata : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio RDATA";
+  attribute X_INTERFACE_INFO of m_axi_mmio_rresp : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio RRESP";
+  attribute X_INTERFACE_INFO of m_axi_mmio_rlast : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio RLAST";
+  attribute X_INTERFACE_INFO of m_axi_mmio_rvalid : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio RVALID";
+  attribute X_INTERFACE_INFO of m_axi_mmio_rready : signal is "xilinx.com:interface:aximm:1.0 m_axi_mmio RREADY";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of stub : architecture is "kv260_rocket_wrapper,Vivado 2025.2";
+begin
+end;

@@ -1,0 +1,6 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+WARNING: [Synth 8-7129] Port io_in_bits_fmt[1] in module FPToInt is either unconnected or has no load
+INFO: [Synth 8-3886] merging instance 'ifpu/io_out_pipe_b_exc_reg[1]' (FDE) to 'ifpu/io_out_pipe_b_exc_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ifpu/io_out_pipe_b_exc_reg[3]' (FDE) to 'ifpu/io_out_pipe_b_exc_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ifpu/\io_out_pipe_b_exc_reg[4] )

@@ -1,0 +1,458 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+| Date         : Thu Oct 15 09:20:41 2026
+| Host         : vsi.es running 64-bit Ubuntu 24.04.4 LTS
+| Command      : report_drc -file kv260_bd_wrapper_drc_opted.rpt -pb kv260_bd_wrapper_drc_opted.pb -rpx kv260_bd_wrapper_drc_opted.rpx
+| Design       : kv260_bd_wrapper
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 84
++--------+----------+------------------------+--------+
+| Rule   | Severity | Description            | Checks |
++--------+----------+------------------------+--------+
+| DPIP-2 | Warning  | Input pipelining       | 22     |
+| DPOP-3 | Warning  | PREG Output pipelining | 30     |
+| DPOP-4 | Warning  | MREG Output pipelining | 32     |
++--------+----------+------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__2 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#6 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#7 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#8 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#9 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#10 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#11 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#12 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#13 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#14 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#15 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__2 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#16 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#17 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#18 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#19 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#20 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#21 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#22 Warning
+Input pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 input kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#2 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__1 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#3 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__10 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#4 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__11 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__11/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#5 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__3 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#6 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__5 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#7 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__7 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#8 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__8 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__8/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#9 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#10 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#11 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#12 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#13 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#14 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#15 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#16 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#17 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__1 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#18 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__10 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#19 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__11 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__11/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#20 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__3 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#21 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__5 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#22 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__7 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#23 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__8 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__8/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#24 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#25 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#26 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#27 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#28 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#29 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#30 Warning
+PREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 output kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#2 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__1 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#3 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__10 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#4 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__11 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__11/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#5 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__3 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#6 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__5 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#7 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__7 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#8 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__8 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/core/div/_prod_T_40__8/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#9 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#10 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#11 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#12 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#13 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#14 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#15 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#16 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#17 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#18 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__1 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#19 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__10 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#20 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__11 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__11/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#21 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__3 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#22 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__5 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#23 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__7 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#24 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__8 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/core/div/_prod_T_40__8/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#25 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#26 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#27 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__4/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#28 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#29 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/dfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#30 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/hfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#31 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#32 Warning
+MREG Output pipelining  
+DSP kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0 multiplier stage kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tile_prci_domain_1/element_reset_domain_rockettile/fpuOpt/sfma/fma/mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

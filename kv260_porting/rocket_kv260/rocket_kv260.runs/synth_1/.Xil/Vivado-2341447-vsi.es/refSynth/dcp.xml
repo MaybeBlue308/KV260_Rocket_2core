@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Checkpoint Version="23" Minor="0">
+	<BUILD_NUMBER Name="5239630"/>
+	<FULL_BUILD Name="SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024"/>
+	<PRODUCT Name="Vivado v2024.2 (64-bit)"/>
+	<Part Name="xck26-sfvc784-2LV-c"/>
+	<FeatureSet Name="FeatureSet_Classic"/>
+	<NEXTGEN_VERSAL Name="0"/>
+	<BoardPart Name="xilinx.com:kv260_som:part0:1.4"/>
+	<Top Name="kv260_bd_wrapper"/>
+	<DisableAutoIOBuffers Name="0"/>
+	<OutOfContext Name="0"/>
+	<MacroLevel Name="1"/>
+	<RunGenerated Name="1"/>
+	<HDPlatform Name="0"/>
+	<XPMLIBRARY Name="XPM_FIFO"/>
+	<XPMLIBRARY Name="XPM_MEMORY"/>
+	<File Type="VERILOG_STUB" Name="kv260_bd_wrapper_stub.v" ModTime="1791911336"/>
+	<File Type="VHDL_STUB" Name="kv260_bd_wrapper_stub.vhdl" ModTime="1791911336"/>
+	<File Type="PARAMXML" Name="kv260_bd_wrapper_param.xml" ModTime="1791911336"/>
+	<File Type="PARAMXML" Name="kv260_bd_wrapper_param.xml" ModTime="1791911336"/>
+	<File Type="SHAPE" Name="kv260_bd_wrapper.shape" ModTime="1791911336"/>
+	<File Type="XN" Name="kv260_bd_wrapper.xn" ModTime="1791911336"/>
+	<File Type="EDIF" Name="kv260_bd_wrapper.edf" ModTime="1791911336"/>
+	<File Type="INCR" Name="kv260_bd_wrapper.incr" ModTime="1791911336"/>
+	<File Type="RDA" Name="kv260_bd_wrapper.rda" ModTime="1791911336"/>
+	<File Type="JSON_RDA" Name="kv260_bd_wrapper_rda.json" ModTime="1791911336"/>
+	<File Type="WDF" Name="kv260_bd_wrapper.wdf" ModTime="1791911336"/>
+	<File Type="SYNTH" Name="kv260_bd_wrapper.synth" ModTime="1791911336"/>
+	<File Type="HWDEF" Name="kv260_bd_wrapper.hwdef" ModTime="1791911336"/>
+	<File Type="HWDEF" Name="kv260_bd_wrapper.hwdef" ModTime="1791911336"/>
+</Checkpoint>
+

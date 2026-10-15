@@ -1,0 +1,77 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-6904] The RAM "pbus/buffer/nodeOut_a_q/ram_ext/Memory_reg" of size (depth=2 x width=116) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "uartClockDomainWrapper/uart_0/txq/ram_ext/Memory_reg" of size (depth=8 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[28] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[27] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[26] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[25] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[24] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[23] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[22] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[21] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[20] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[19] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[18] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[17] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[16] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[15] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[14] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[13] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[12] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[2] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[1] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_address[0] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_mask[7] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_mask[5] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[63] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[62] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[61] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[60] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[59] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[58] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[57] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[56] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[55] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[54] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[53] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[52] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[47] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[46] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[45] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[44] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[43] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[42] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[41] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[40] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[39] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[38] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[37] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[36] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[35] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[34] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[33] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[30] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[29] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[28] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[27] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[26] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[25] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[24] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[23] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[22] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[21] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_uart_0_control_xing_in_a_bits_data[20] in module TLUARTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_plic_in_a_bits_address[27] in module PLICClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_plic_in_a_bits_address[26] in module PLICClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_plic_in_a_bits_address[2] in module PLICClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_plic_in_a_bits_address[1] in module PLICClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_plic_in_a_bits_address[0] in module PLICClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_clint_in_a_bits_address[25] in module CLINTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_clint_in_a_bits_address[24] in module CLINTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_clint_in_a_bits_address[23] in module CLINTClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_clint_in_a_bits_address[22] in module CLINTClockSinkDomain is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6904] The RAM "pbus/buffer/nodeOut_a_q/ram_ext/Memory_reg" of size (depth=2 x width=115) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "uartClockDomainWrapper/uart_0/txq/ram_ext/Memory_reg" of size (depth=8 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pbus/\atomics/cam_a_0_lut_reg[0] )

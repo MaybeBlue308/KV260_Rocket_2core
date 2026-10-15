@@ -1,0 +1,291 @@
+L2 InclusiveCache Client Map:
+	0 <= debug
+	1 <= Core 0 DCache
+	2 <= Core 0 ICache
+	3 <= Core 1 DCache
+	4 <= Core 1 ICache
+
+Interrupt map (4 harts 3 interrupts):
+  [1, 1] => uart_0
+  [2, 2] => spi_0
+  [3, 3] => spi_1
+
+Clock sbus_0: using diplomatically specified frequency of 100.0.
+Clock pbus_0: using diplomatically specified frequency of 100.0.
+Clock fbus_0: using diplomatically specified frequency of 100.0.
+Clock mbus_0: using diplomatically specified frequency of 100.0.
+Clock cbus_0: using diplomatically specified frequency of 100.0.
+Leaving clock group uncore with synchronous reset
+/dts-v1/;
+
+/ {
+	#address-cells = <1>;
+	#size-cells = <1>;
+	compatible = "ucb-bar,chipyard-dev";
+	model = "ucb-bar,chipyard";
+	L3: aliases {
+		serial0 = &L29;
+	};
+	L21: chosen {
+		stdout-path = &L29;
+	};
+	L2: cpus {
+		#address-cells = <1>;
+		#size-cells = <0>;
+		timebase-frequency = <1000000>;
+		L13: cpu@0 {
+			clock-frequency = <0>;
+			compatible = "sifive,rocket0", "riscv";
+			d-cache-block-size = <64>;
+			d-cache-sets = <64>;
+			d-cache-size = <32768>;
+			d-tlb-sets = <1>;
+			d-tlb-size = <32>;
+			device_type = "cpu";
+			hardware-exec-breakpoint-count = <1>;
+			i-cache-block-size = <64>;
+			i-cache-sets = <64>;
+			i-cache-size = <32768>;
+			i-tlb-sets = <1>;
+			i-tlb-size = <32>;
+			mmu-type = "riscv,sv39";
+			next-level-cache = <&L10>;
+			reg = <0x0>;
+			riscv,isa = "rv64imafdcbzicsr_zifencei_zihpm_zfh_zba_zbb_zbs_xrocket";
+			riscv,pmpgranularity = <4>;
+			riscv,pmpregions = <8>;
+			status = "okay";
+			timebase-frequency = <1000000>;
+			tlb-split;
+			L11: interrupt-controller {
+				#interrupt-cells = <1>;
+				compatible = "riscv,cpu-intc";
+				interrupt-controller;
+			};
+		};
+		L16: cpu@1 {
+			clock-frequency = <0>;
+			compatible = "sifive,rocket0", "riscv";
+			d-cache-block-size = <64>;
+			d-cache-sets = <64>;
+			d-cache-size = <32768>;
+			d-tlb-sets = <1>;
+			d-tlb-size = <32>;
+			device_type = "cpu";
+			hardware-exec-breakpoint-count = <1>;
+			i-cache-block-size = <64>;
+			i-cache-sets = <64>;
+			i-cache-size = <32768>;
+			i-tlb-sets = <1>;
+			i-tlb-size = <32>;
+			mmu-type = "riscv,sv39";
+			next-level-cache = <&L10>;
+			reg = <0x1>;
+			riscv,isa = "rv64imafdcbzicsr_zifencei_zihpm_zfh_zba_zbb_zbs_xrocket";
+			riscv,pmpgranularity = <4>;
+			riscv,pmpregions = <8>;
+			status = "okay";
+			timebase-frequency = <1000000>;
+			tlb-split;
+			L14: interrupt-controller {
+				#interrupt-cells = <1>;
+				compatible = "riscv,cpu-intc";
+				interrupt-controller;
+			};
+		};
+	};
+	L27: memory@8000000 {
+		device_type = "memory";
+		reg = <0x8000000 0x80000>;
+		status = "disabled";
+	};
+	L24: memory@80000000 {
+		device_type = "memory";
+		reg = <0x80000000 0x40000000>;
+	};
+	L1: soc {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		compatible = "ucb-bar,chipyard-soc", "simple-bus";
+		ranges;
+		L28: boot-address-reg@1000 {
+			reg = <0x1000 0x1000>;
+			reg-names = "control";
+		};
+		L10: cache-controller@2010000 {
+			cache-block-size = <64>;
+			cache-level = <2>;
+			cache-sets = <1024>;
+			cache-size = <524288>;
+			cache-unified;
+			compatible = "sifive,inclusivecache0", "cache";
+			next-level-cache = <&L24 &L27>;
+			reg = <0x2010000 0x1000>;
+			reg-names = "control";
+			sifive,mshr-count = <7>;
+		};
+		L7: cbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <100000000>;
+			clock-output-names = "cbus_clock";
+			compatible = "fixed-clock";
+		};
+		L17: clint@2000000 {
+			compatible = "riscv,clint0";
+			interrupts-extended = <&L11 3 &L11 7 &L14 3 &L14 7>;
+			reg = <0x2000000 0x10000>;
+			reg-names = "control";
+		};
+		L32: clock-gater@100000 {
+			reg = <0x100000 0x1000>;
+			reg-names = "control";
+		};
+		L19: debug-controller@0 {
+			compatible = "sifive,debug-013", "riscv,debug-013";
+			debug-attach = "jtag";
+			interrupts-extended = <&L11 65535 &L14 65535>;
+			reg = <0x0 0x1000>;
+			reg-names = "control";
+		};
+		L8: error-device@3000 {
+			compatible = "sifive,error0";
+			reg = <0x3000 0x1000>;
+		};
+		L6: fbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <100000000>;
+			clock-output-names = "fbus_clock";
+			compatible = "fixed-clock";
+		};
+		L18: interrupt-controller@c000000 {
+			#interrupt-cells = <1>;
+			compatible = "riscv,plic0";
+			interrupt-controller;
+			interrupts-extended = <&L11 11 &L11 9 &L14 11 &L14 9>;
+			reg = <0xc000000 0x4000000>;
+			reg-names = "control";
+			riscv,max-priority = <3>;
+			riscv,ndev = <3>;
+		};
+		L9: mbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <100000000>;
+			clock-output-names = "mbus_clock";
+			compatible = "fixed-clock";
+		};
+		L25: mmio-port-axi4@c0000000 {
+			#address-cells = <1>;
+			#size-cells = <1>;
+			compatible = "simple-bus";
+			ranges = <0xc0000000 0xc0000000 0x20000000>;
+		};
+		L5: pbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <100000000>;
+			clock-output-names = "pbus_clock";
+			compatible = "fixed-clock";
+		};
+		L26: rom@10000 {
+			compatible = "sifive,rom0";
+			reg = <0x10000 0x10000>;
+			reg-names = "mem";
+		};
+		L4: sbus_clock {
+			#clock-cells = <0>;
+			clock-frequency = <100000000>;
+			clock-output-names = "sbus_clock";
+			compatible = "fixed-clock";
+		};
+		L29: serial@10020000 {
+			clocks = <&L5>;
+			compatible = "sifive,uart0";
+			interrupt-parent = <&L18>;
+			interrupts = <1>;
+			reg = <0x10020000 0x1000>;
+			reg-names = "control";
+		};
+		L30: spi@10030000 {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			clocks = <&L5>;
+			compatible = "sifive,spi0";
+			interrupt-parent = <&L18>;
+			interrupts = <2>;
+			reg = <0x10030000 0x1000>;
+			reg-names = "control";
+			L35: flash@0 {
+				compatible = "jedec,spi-nor";
+				reg = <0x0>;
+				spi-max-frequency = <10000000>;
+			};
+		};
+		L31: spi@10031000 {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			clocks = <&L5>;
+			compatible = "sifive,spi0";
+			interrupt-parent = <&L18>;
+			interrupts = <3>;
+			reg = <0x10031000 0x1000>;
+			reg-names = "control";
+			L36: mmc@0 {
+				compatible = "mmc-spi-slot";
+				disable-wp;
+				reg = <0x0>;
+				spi-max-frequency = <20000000>;
+				voltage-ranges = <3300 3300>;
+			};
+		};
+		L33: tile-reset-setter@110000 {
+			reg = <0x110000 0x1000>;
+			reg-names = "control";
+		};
+	};
+};
+
+Generated Address Map
+	       0 -     1000 ARWX  debug-controller@0
+	    1000 -     2000 ARW   boot-address-reg@1000
+	    3000 -     4000 ARWX  error-device@3000
+	   10000 -    20000  R X  rom@10000
+	  100000 -   101000 ARW   clock-gater@100000
+	  110000 -   111000 ARW   tile-reset-setter@110000
+	 2000000 -  2010000 ARW   clint@2000000
+	 2010000 -  2011000 ARW   cache-controller@2010000
+	 8000000 -  8080000 ARWXC memory@8000000
+	 c000000 - 10000000 ARW   interrupt-controller@c000000
+	10020000 - 10021000 ARW   serial@10020000
+	10030000 - 10031000 ARW   spi@10030000
+	10031000 - 10032000 ARW   spi@10031000
+	80000000 - c0000000 ARWXC memory@80000000
+	c0000000 - e0000000  RWX  mmio-port-axi4@c0000000
+
+IOCells generated by IOBinders:
+  IOBinder for interface sifive.blocks.devices.uart.HasPeripheryUART generated:
+    1 X GenericDigitalInIOCell
+    1 X GenericDigitalOutIOCell
+  IOBinder for interface testchipip.boot.CanHavePeripheryCustomBootPin generated:
+    1 X GenericDigitalInIOCell
+  IOBinder for interface freechips.rocketchip.devices.debug.HasPeripheryDebug generated:
+    4 X GenericDigitalInIOCell
+    1 X GenericDigitalOutIOCell
+  IOBinder for interface chipyard.clocking.CanHaveClockTap generated:
+    1 X GenericDigitalOutIOCell
+
+  Total generated 9 IOCells:
+    6 X GenericDigitalInIOCell
+    3 X GenericDigitalOutIOCell
+Harness binder clock is 100.0
+[warn] generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala 80:43: [W004] Dynamic index with width 1 is too wide for Vec of size 1 (expected index width 0).
+[warn]       when (a_first && in.a.fire) { flight(in.a.bits.source) := !a_notFIFO }
+[warn]                                           ^
+[warn] generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala 81:43: [W004] Dynamic index with width 1 is too wide for Vec of size 1 (expected index width 0).
+[warn]       when (d_first && in.d.fire) { flight(in.d.bits.source) := false.B }
+[warn]                                           ^
+[warn] generators/rocket-chip/src/main/scala/devices/debug/Debug.scala 1127:60: [W002] Dynamic index with width 10 is too large for extractee of width 2
+[warn]         hgHartFiring(hg) := hartHaltedWrEn & ~haltedBitRegs(hartSelFuncs.hartIdToHartSel(hartHaltedId)) & (hgParticipateHart(hartSelFuncs.hartIdToHartSel(hartHaltedId)) === hg.U)
+[warn]                                                            ^
+[warn] generators/rocket-chip/src/main/scala/devices/debug/Debug.scala 1127:125: [W004] Dynamic index with width 10 is too wide for Vec of size 2 (expected index width 1).
+[warn]         hgHartFiring(hg) := hartHaltedWrEn & ~haltedBitRegs(hartSelFuncs.hartIdToHartSel(hartHaltedId)) & (hgParticipateHart(hartSelFuncs.hartIdToHartSel(hartHaltedId)) === hg.U)
+[warn]                                                                                                                             ^
+[warn] There were 4 warning(s) during hardware elaboration.

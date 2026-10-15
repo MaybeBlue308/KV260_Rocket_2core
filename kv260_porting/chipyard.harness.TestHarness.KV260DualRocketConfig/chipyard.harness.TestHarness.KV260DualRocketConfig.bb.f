@@ -1,0 +1,15 @@
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/ClockSourceAtFreqMHz.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/EICG_wrapper.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/GenericDigitalInIOCell.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/GenericDigitalOutIOCell.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/SimDRAM.cc
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/SimDRAM.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/SimJTAG.cc
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/SimJTAG.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/SimUART.cc
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/SimUART.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/mm.cc
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/mm_dramsim2.cc
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/plusarg_reader.v
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/remote_bitbang.cc
+/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/uart.cc

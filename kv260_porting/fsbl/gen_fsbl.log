@@ -1,0 +1,135 @@
+Display is :157
+
+****** Software Commandline Tool (XSCT) v2025.2.0
+  **** SW Build 6298600 on Thu Nov 13 00:55:04 MST 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+Warning: XSCT is deprecated and will be removed in future releases.
+We recommend using the new Python command-line tool for project management and debugging:
+- Run "vitis -i" for interactive mode.
+- Run "vitis -s <script>" for script mode.
+INFO: [Hsi 55-2053] elapsed time for repository (/ssd3/tools/Xilinx/2025.2/data/embeddedsw) loading 0 seconds
+INFO: [PLM-1] versal_plm application compilation started
+Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_6/src
+Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_13/src
+Running Make include in psu_cortexa53_0/libsrc/clockps_v1_6/src
+Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_13/src
+Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v2_2/src
+Running Make include in psu_cortexa53_0/libsrc/csudma_v1_18/src
+Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_8/src
+Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_6/src
+Running Make include in psu_cortexa53_0/libsrc/dppsu_v1_7/src
+Running Make include in psu_cortexa53_0/libsrc/emacps_v3_23/src
+Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_14/src
+Running Make include in psu_cortexa53_0/libsrc/iicps_v3_22/src
+Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_18/src
+Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_22/src
+Running Make include in psu_cortexa53_0/libsrc/resetps_v1_7/src
+Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_16/src
+Running Make include in psu_cortexa53_0/libsrc/scugic_v5_6/src
+Running Make include in psu_cortexa53_0/libsrc/sdps_v4_5/src
+Running Make include in psu_cortexa53_0/libsrc/spips_v3_13/src
+Running Make include in psu_cortexa53_0/libsrc/standalone_v9_4/src
+Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v3_2/src
+Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_22/src
+Running Make include in psu_cortexa53_0/libsrc/uartps_v3_17/src
+Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_18/src
+Running Make include in psu_cortexa53_0/libsrc/video_common_v4_18/src
+Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_8/src
+Running Make include in psu_cortexa53_0/libsrc/xilffs_v5_5/src
+Running Make include in psu_cortexa53_0/libsrc/xilpm_v6_1/src
+Include files for this library have already been copied.
+Running Make include in psu_cortexa53_0/libsrc/xilsecure_v5_6/src
+Running Make include in psu_cortexa53_0/libsrc/zdma_v1_21/src
+Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_6/src
+Compiling dpdma
+/ssd3/tools/Xilinx/2025.2/Vitis/gnu/aarch64/lin/aarch64-none/bin/../x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/aarch64-xilinx-elf-ar.real: creating ../../../lib/libxil.a
+Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_6/src
+Compiling avbuf
+Running Make libs in psu_cortexa53_0/libsrc/xilpm_v6_1/src
+Compiling xilpm library
+Running Make libs in psu_cortexa53_0/libsrc/dppsu_v1_7/src
+Compiling dppsu
+Finished building libraries sequentially.
+Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_6/src
+Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_13/src
+Running Make include in psu_cortexa53_0/libsrc/clockps_v1_6/src
+Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_13/src
+Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v2_2/src
+Running Make include in psu_cortexa53_0/libsrc/csudma_v1_18/src
+Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_8/src
+Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_6/src
+Running Make include in psu_cortexa53_0/libsrc/dppsu_v1_7/src
+Running Make include in psu_cortexa53_0/libsrc/emacps_v3_23/src
+Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_14/src
+Running Make include in psu_cortexa53_0/libsrc/iicps_v3_22/src
+Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_18/src
+Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_22/src
+Running Make include in psu_cortexa53_0/libsrc/resetps_v1_7/src
+Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_16/src
+Running Make include in psu_cortexa53_0/libsrc/scugic_v5_6/src
+Running Make include in psu_cortexa53_0/libsrc/sdps_v4_5/src
+Running Make include in psu_cortexa53_0/libsrc/spips_v3_13/src
+Running Make include in psu_cortexa53_0/libsrc/standalone_v9_4/src
+Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v3_2/src
+Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_22/src
+Running Make include in psu_cortexa53_0/libsrc/uartps_v3_17/src
+Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_18/src
+Running Make include in psu_cortexa53_0/libsrc/video_common_v4_18/src
+Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_8/src
+Running Make include in psu_cortexa53_0/libsrc/xilffs_v5_5/src
+Running Make include in psu_cortexa53_0/libsrc/xilpm_v6_1/src
+Running Make include in psu_cortexa53_0/libsrc/xilsecure_v5_6/src
+Running Make include in psu_cortexa53_0/libsrc/zdma_v1_21/src
+Include files for this library have already been copied.
+Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_13/src
+Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_6/src
+Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_13/src
+Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v2_2/src
+Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_18/src
+Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_8/src
+Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_14/src
+Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_23/src
+Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_22/src
+Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_18/src
+Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_22/src
+Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_7/src
+Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_16/src
+Running Make libs in psu_cortexa53_0/libsrc/scugic_v5_6/src
+Running Make libs in psu_cortexa53_0/libsrc/sdps_v4_5/src
+Running Make libs in psu_cortexa53_0/libsrc/spips_v3_13/src
+Running Make libs in psu_cortexa53_0/libsrc/standalone_v9_4/src
+Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v3_2/src
+Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_22/src
+Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_17/src
+In file included from xsysmonpsu.c:66:
+../../../include/xbasic_types.h:102:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+  102 | #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+      |  ^~~~~~~
+../../../include/xbasic_types.h:103:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+  103 | #warning  Please refer the Standalone BSP UG647 for further details
+      |  ^~~~~~~
+Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_18/src
+Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_18/src
+Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_8/src
+Running Make libs in psu_cortexa53_0/libsrc/xilffs_v5_5/src
+Running Make libs in psu_cortexa53_0/libsrc/xilsecure_v5_6/src
+Compiling XilSecure Library
+ff.c: In function 'get_ldnumber':
+ff.c:4000:13: warning: unused variable 'vol' [-Wunused-variable]
+ 4000 |         int vol = -1;
+      |             ^~~
+Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_21/src
+xtime_l.c:49:9: note: '#pragma message: For the sleep routines, Global timer is being used'
+   49 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+Finished building libraries parallelly.
+Finished building libraries
+Keyword not found in the file.
+INFO: [PLM-1] Libraries compilation started
+lto-wrapper.real: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper.real: note: see the '-flto' option documentation for more information
+hsi::generate_app: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 764.887 ; gain = 0.156 ; free physical = 10593 ; free virtual = 30449
+FSBL_DONE

@@ -1,0 +1,9 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+WARNING: [Synth 8-7129] Port R0_en in module regfile_32x65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R0_clk in module regfile_32x65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R1_en in module regfile_32x65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R1_clk in module regfile_32x65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_en in module regfile_32x65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R2_clk in module regfile_32x65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W1_clk in module regfile_32x65 is either unconnected or has no load

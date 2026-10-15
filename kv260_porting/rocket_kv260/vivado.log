@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Oct 13 23:34:23 2026
+# Process ID         : 14876
+# Current directory  : D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18964 D:\WORK_FOR_MONEY\kv260_porting\rocket_kv260\rocket_kv260.xpr
+# Log file           : D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/vivado.log
+# Journal file       : D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260\vivado.jou
+# Running On         : DESKTOP-4B2MS3Q
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 225H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 14
+# Host memory        : 33820 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35967 MB
+# Available Virtual  : 10847 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'kv260_bd_kv260_rocket_wrapper_0_0' generated file not found 'd:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'kv260_bd_kv260_rocket_wrapper_0_0' generated file not found 'd:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'kv260_bd_kv260_rocket_wrapper_0_0' generated file not found 'd:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'kv260_bd_kv260_rocket_wrapper_0_0' generated file not found 'd:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'kv260_bd_kv260_rocket_wrapper_0_0' generated file not found 'd:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1353.965 ; gain = 258.945
+update_compile_order -fileset sources_1
+open_bd_design {D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.srcs/sources_1/bd/kv260_bd/kv260_bd.bd}
+Reading block design file <D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.srcs/sources_1/bd/kv260_bd/kv260_bd.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:module_ref:kv260_rocket_wrapper:1.0 - kv260_rocket_wrapper_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_1
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Successfully read diagram <kv260_bd> from block design file <D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.srcs/sources_1/bd/kv260_bd/kv260_bd.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1552.246 ; gain = 166.016
+CRITICAL WARNING: [HDL 9-849] Syntax error : file ended before end of clause. [d:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_sim_netlist.vhdl:830116]
+open_bd_design {D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/rocket_kv260.srcs/sources_1/bd/kv260_bd/kv260_bd.bd}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\WORK_FOR_MONEY\kv260_porting\kv260_rocket_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\WORK_FOR_MONEY\kv260_porting\rocket_kv260\rocket_kv260.gen\sources_1\bd\kv260_bd\ip\kv260_bd_kv260_rocket_wrapper_0_0\synth\kv260_bd_kv260_rocket_wrapper_0_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\WORK_FOR_MONEY\kv260_porting\kv260_rocket_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\WORK_FOR_MONEY\kv260_porting\kv260_rocket_wrapper.v:]
+WARNING: [Common 17-9] Error reading message records.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 14 01:13:08 2026...

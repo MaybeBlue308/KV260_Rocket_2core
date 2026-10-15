@@ -1,0 +1,1448 @@
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Oct 15 09:12:58 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/build_bitstream_linux.tcl -notrace
+=== maxThreads = 2, project = /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx
+Wrote  : </ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.srcs/sources_1/bd/kv260_bd/kv260_bd.bd> 
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'resetn' of definition 'xilinx.com:signal:reset:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'resetn' of definition 'xilinx.com:signal:reset:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axi_mem' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axi_mmio' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axi_mem'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'resetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_gpio_o> is being overridden by the user with net <zynq_ultra_ps_e_0_emio_gpio_o>. This pin will not be connected as a part of interface connection <GPIO_0>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_gpio_i> is being overridden by the user with net <kv260_rocket_wrapper_0_ps_gpio_i>. This pin will not be connected as a part of interface connection <GPIO_0>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_uart0_rxd> is being overridden by the user with net <kv260_rocket_wrapper_0_uart_txd>. This pin will not be connected as a part of interface connection <UART_0>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_uart0_txd> is being overridden by the user with net <zynq_ultra_ps_e_0_emio_uart0_txd>. This pin will not be connected as a part of interface connection <UART_0>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+INFO: [BD 41-3093] Triggering Legacy Auto Assign Algorithm
+WARNING: [BD 41-1743] Cannot assign slave segment '/zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH' into address space '/kv260_rocket_wrapper_0/m_axi_mmio' because no valid addressing path exists. The addressing path from slave segment '/zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH' to address space '/kv260_rocket_wrapper_0/m_axi_mmio' terminates at master interface '/kv260_rocket_wrapper_0/m_axi_mmio'. The apertures for this interface {<0x0_0000_0000 [ 4G ]>} do not intersect with previous path apertures {<0x8_0000_0000 [ 32G ]>}. This assignment will be automatically excluded.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mem' at <0x8_0000_0000 [ 32G ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mem' at <0x0000_0000 [ 2G ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mmio' at <0x0000_0000 [ 2G ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mem' at <0xC000_0000 [ 512M ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP6/LPD_QSPI' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mmio' at <0xC000_0000 [ 512M ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mem' at <0xFF00_0000 [ 16M ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM' is being assigned into address space '/kv260_rocket_wrapper_0/m_axi_mmio' at <0xFF00_0000 [ 16M ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+MAP  m_axi_mem -> /kv260_rocket_wrapper_0/m_axi_mem/SEG_zynq_ultra_ps_e_0_HP0_DDR_HIGH @ 0x800000000 (1G)
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mem.
+EXCL m_axi_mem -> /kv260_rocket_wrapper_0/m_axi_mem/SEG_zynq_ultra_ps_e_0_HP0_DDR_LOW
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI from address space /kv260_rocket_wrapper_0/m_axi_mem.
+EXCL m_axi_mem -> /kv260_rocket_wrapper_0/m_axi_mem/SEG_zynq_ultra_ps_e_0_HP0_QSPI
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mem.
+EXCL m_axi_mem -> /kv260_rocket_wrapper_0/m_axi_mem/SEG_zynq_ultra_ps_e_0_HP0_LPS_OCM
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+EXCL m_axi_mmio -> /kv260_rocket_wrapper_0/m_axi_mmio/SEG_zynq_ultra_ps_e_0_LPD_DDR_LOW
+MAP  m_axi_mmio -> /kv260_rocket_wrapper_0/m_axi_mmio/SEG_zynq_ultra_ps_e_0_LPD_QSPI @ 0xC0000000 (512M)
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+EXCL m_axi_mmio -> /kv260_rocket_wrapper_0/m_axi_mmio/SEG_zynq_ultra_ps_e_0_LPD_LPS_OCM
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH> is excluded from all addressing paths.
+WARNING: [BD 41-3281] Instance '/zynq_ultra_ps_e_0' is connected on both sides by SmartConnects and cannot automatically configure itself to match the endpoints. Please manually configure its AXI interfaces as required for the design.
+WARNING: [BD 41-3281] Instance '/kv260_rocket_wrapper_0' is connected on both sides by SmartConnects and cannot automatically configure itself to match the endpoints. Please manually configure its AXI interfaces as required for the design.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [BD 5-943] Reserving offset range <0x8_0000_0000 [ 1G ]> from slave interface '/smartconnect_0/S00_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] kv260_bd_smartconnect_0_0: SmartConnect kv260_bd_smartconnect_0_0 is in High-performance Mode.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [BD 5-943] Reserving offset range <0xC000_0000 [ 512M ]> from slave interface '/smartconnect_1/S00_AXI' to master interface '/smartconnect_1/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] kv260_bd_smartconnect_1_0: SmartConnect kv260_bd_smartconnect_1_0 is in High-performance Mode.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI from address space /kv260_rocket_wrapper_0/m_axi_mem.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_HIGH from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_DDR_LOW from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP6/LPD_LPS_OCM from address space /kv260_rocket_wrapper_0/m_axi_mmio.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /smartconnect_0/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /smartconnect_0/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_LPD(1) and /smartconnect_1/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_LPD(1) and /smartconnect_1/M00_AXI(0)
+Wrote  : </ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.srcs/sources_1/bd/kv260_bd/kv260_bd.bd> 
+PS EMIO GPIO width: 8
+PS UART1 enable   : 1
+INFO: [BD 41-1662] The design 'kv260_bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v
+Verilog Output written to : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/sim/kv260_bd.v
+Verilog Output written to : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/hdl/kv260_bd_wrapper.v
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.5-0] kv260_bd_zynq_ultra_ps_e_0_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Amd's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Amd's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_LPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block kv260_rocket_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+Exporting to file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/hw_handoff/kv260_bd_smartconnect_0_0.hwh
+Generated Hardware Definition File /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/synth/kv260_bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+Exporting to file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/hw_handoff/kv260_bd_smartconnect_1_0.hwh
+Generated Hardware Definition File /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/synth/kv260_bd_smartconnect_1_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_1 .
+Exporting to file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/hw_handoff/kv260_bd.hwh
+Generated Hardware Definition File /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/kv260_bd.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/kv260_bd.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/kv260_bd_sv.sveo
+generate_target: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1910.477 ; gain = 84.844 ; free physical = 13766 ; free virtual = 34545
+WARNING: [Runs 36-537] File /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/limit_threads.tcl is not part of fileset utils_1, but has specified as a Tcl hook script for run(s) synth_1. This file will not be handled as part of the project for archive and other project based functionality.
+WARNING: [Runs 36-537] File /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/limit_threads.tcl is not part of fileset utils_1, but has specified as a Tcl hook script for run(s) impl_1. This file will not be handled as part of the project for archive and other project based functionality.
+=== STAGE synth start Thu Oct 15 09:13:20 +07 2026
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Oct 15 09:13:21 2026] Launched kv260_bd_smartconnect_0_0_synth_1, kv260_bd_proc_sys_reset_0_0_synth_1, kv260_bd_kv260_rocket_wrapper_0_0_synth_1, kv260_bd_zynq_ultra_ps_e_0_0_synth_1, kv260_bd_smartconnect_1_0_synth_1...
+Run output will be captured here:
+kv260_bd_smartconnect_0_0_synth_1: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_0_0_synth_1/runme.log
+kv260_bd_proc_sys_reset_0_0_synth_1: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_proc_sys_reset_0_0_synth_1/runme.log
+kv260_bd_kv260_rocket_wrapper_0_0_synth_1: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_kv260_rocket_wrapper_0_0_synth_1/runme.log
+kv260_bd_zynq_ultra_ps_e_0_0_synth_1: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_zynq_ultra_ps_e_0_0_synth_1/runme.log
+kv260_bd_smartconnect_1_0_synth_1: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_smartconnect_1_0_synth_1/runme.log
+[Thu Oct 15 09:13:21 2026] Launched synth_1...
+Run output will be captured here: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/runme.log
+[Thu Oct 15 09:13:21 2026] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log kv260_bd_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_bd_wrapper.tcl
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Oct 15 09:18:53 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source kv260_bd_wrapper.tcl -notrace
+source /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/limit_threads.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/ssd3/tools/Xilinx/2025.2/data/ip'.
+Command: synth_design -top kv260_bd_wrapper -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1826528
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2763.680 ; gain = 149.688 ; free physical = 11107 ; free virtual = 32460
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_wrapper' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/hdl/kv260_bd_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:13]
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_kv260_rocket_wrapper_0_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_kv260_rocket_wrapper_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_kv260_rocket_wrapper_0_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_kv260_rocket_wrapper_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_proc_sys_reset_0_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_proc_sys_reset_0_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'kv260_bd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:277]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'kv260_bd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:277]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'kv260_bd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:277]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'kv260_bd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:277]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'kv260_bd_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:277]
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_smartconnect_0_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_smartconnect_0_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_smartconnect_1_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_smartconnect_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_smartconnect_1_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_smartconnect_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'kv260_bd_zynq_ultra_ps_e_0_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_zynq_ultra_ps_e_0_0' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/.Xil/Vivado-1826032-vsi.es/realtime/kv260_bd_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'saxigp2_bid' of module 'kv260_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:430]
+WARNING: [Synth 8-7071] port 'saxigp2_rid' of module 'kv260_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:430]
+WARNING: [Synth 8-7071] port 'saxigp6_bid' of module 'kv260_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:430]
+WARNING: [Synth 8-7071] port 'saxigp6_rid' of module 'kv260_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:430]
+WARNING: [Synth 8-7071] port 'emio_gpio_t' of module 'kv260_bd_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:430]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'kv260_bd_zynq_ultra_ps_e_0_0' has 88 connections declared, but only 83 given [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:430]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/synth/kv260_bd.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_bd_wrapper' (0#1) [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/hdl/kv260_bd_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2857.648 ; gain = 243.656 ; free physical = 11002 ; free virtual = 32356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2857.648 ; gain = 243.656 ; free physical = 11002 ; free virtual = 32356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2857.648 ; gain = 243.656 ; free physical = 11002 ; free virtual = 32356
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2857.648 ; gain = 0.000 ; free physical = 11002 ; free virtual = 32356
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'kv260_bd_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'kv260_bd_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_in_context.xdc] for cell 'kv260_bd_i/kv260_rocket_wrapper_0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0_in_context.xdc] for cell 'kv260_bd_i/kv260_rocket_wrapper_0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0_in_context.xdc] for cell 'kv260_bd_i/proc_sys_reset_0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0_in_context.xdc] for cell 'kv260_bd_i/proc_sys_reset_0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/kv260_bd_smartconnect_0_0/kv260_bd_smartconnect_0_0_in_context.xdc] for cell 'kv260_bd_i/smartconnect_0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/kv260_bd_smartconnect_0_0/kv260_bd_smartconnect_0_0_in_context.xdc] for cell 'kv260_bd_i/smartconnect_0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/kv260_bd_smartconnect_1_0/kv260_bd_smartconnect_1_0_in_context.xdc] for cell 'kv260_bd_i/smartconnect_1'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/kv260_bd_smartconnect_1_0/kv260_bd_smartconnect_1_0_in_context.xdc] for cell 'kv260_bd_i/smartconnect_1'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2897.668 ; gain = 0.000 ; free physical = 11042 ; free virtual = 32398
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2897.703 ; gain = 0.000 ; free physical = 11042 ; free virtual = 32398
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2897.703 ; gain = 283.711 ; free physical = 11026 ; free virtual = 32384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2905.672 ; gain = 291.680 ; free physical = 11026 ; free virtual = 32384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2905.672 ; gain = 291.680 ; free physical = 11026 ; free virtual = 32384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2905.672 ; gain = 291.680 ; free physical = 11029 ; free virtual = 32387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2905.672 ; gain = 291.680 ; free physical = 11028 ; free virtual = 32391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 3557.195 ; gain = 943.203 ; free physical = 10524 ; free virtual = 31887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 3557.195 ; gain = 943.203 ; free physical = 10524 ; free virtual = 31887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 3567.211 ; gain = 953.219 ; free physical = 10516 ; free virtual = 31879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------------+----------+
+|      |BlackBox name                     |Instances |
++------+----------------------------------+----------+
+|1     |kv260_bd_kv260_rocket_wrapper_0_0 |         1|
+|2     |kv260_bd_proc_sys_reset_0_0       |         1|
+|3     |kv260_bd_smartconnect_0_0         |         1|
+|4     |kv260_bd_smartconnect_1_0         |         1|
+|5     |kv260_bd_zynq_ultra_ps_e_0_0      |         1|
++------+----------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------+------+
+|      |Cell                            |Count |
++------+--------------------------------+------+
+|1     |kv260_bd_kv260_rocket_wrapper_0 |     1|
+|2     |kv260_bd_proc_sys_reset_0       |     1|
+|3     |kv260_bd_smartconnect_0         |     1|
+|4     |kv260_bd_smartconnect_1         |     1|
+|5     |kv260_bd_zynq_ultra_ps_e_0      |     1|
+|6     |IBUF                            |     2|
+|7     |OBUF                            |     6|
++------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10353 ; free virtual = 31716
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3754.023 ; gain = 1099.977 ; free physical = 10343 ; free virtual = 31706
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3754.023 ; gain = 1140.031 ; free physical = 10343 ; free virtual = 31706
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3754.023 ; gain = 0.000 ; free physical = 10509 ; free virtual = 31872
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3754.023 ; gain = 0.000 ; free physical = 10515 ; free virtual = 31878
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+
+Synth Design complete | Checksum: 6c567d7
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 3754.023 ; gain = 2176.547 ; free physical = 10515 ; free virtual = 31878
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2795.069; main = 2795.069; forked = 279.812
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4139.207; main = 3680.340; forked = 994.367
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3754.023 ; gain = 0.000 ; free physical = 10515 ; free virtual = 31878
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/synth_1/kv260_bd_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file kv260_bd_wrapper_utilization_synth.rpt -pb kv260_bd_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 09:19:16 2026...
+[Thu Oct 15 09:19:17 2026] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:05:43 ; elapsed = 00:05:56 . Memory (MB): peak = 2054.547 ; gain = 0.000 ; free physical = 12945 ; free virtual = 34302
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xck26-sfvc784-2LV-c
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0.dcp' for cell 'kv260_bd_i/kv260_rocket_wrapper_0'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0.dcp' for cell 'kv260_bd_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/kv260_bd_smartconnect_0_0.dcp' for cell 'kv260_bd_i/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/kv260_bd_smartconnect_1_0.dcp' for cell 'kv260_bd_i/smartconnect_1'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0.dcp' for cell 'kv260_bd_i/zynq_ultra_ps_e_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.49 ; elapsed = 00:00:00.49 . Memory (MB): peak = 2846.422 ; gain = 0.000 ; free physical = 12199 ; free virtual = 33557
+INFO: [Netlist 29-17] Analyzing 4957 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0.xdc] for cell 'kv260_bd_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0.xdc] for cell 'kv260_bd_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0_board.xdc] for cell 'kv260_bd_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0_board.xdc] for cell 'kv260_bd_i/proc_sys_reset_0/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_62a4_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_62a4_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_0/inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_0/inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/ip/ip_1/bd_a2f5_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/ip/ip_1/bd_a2f5_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_1/inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_1/inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/kv260_timing.xdc]
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/kv260_timing.xdc]
+INFO: [Project 1-1714] 44 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3871.574 ; gain = 0.000 ; free physical = 11203 ; free virtual = 32577
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 529 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 50 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  RAM256X1D => RAM256X1D (MUXF7(x4), MUXF8(x2), RAMD64E(x8)): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 21 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 303 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 7 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 2 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 114 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 22 instances
+
+open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 3871.609 ; gain = 1817.062 ; free physical = 11203 ; free virtual = 32577
+=== STAGE impl start Thu Oct 15 09:19:39 +07 2026
+[Thu Oct 15 09:19:41 2026] Launched impl_1...
+Run output will be captured here: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/runme.log
+[Thu Oct 15 09:19:41 2026] Waiting for impl_1 to finish...
+
+*** Running vivado
+    with args -log kv260_bd_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source kv260_bd_wrapper.tcl -notrace
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Oct 15 09:19:42 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source kv260_bd_wrapper.tcl -notrace
+source /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/limit_threads.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/ssd3/tools/Xilinx/2025.2/data/ip'.
+Command: link_design -top kv260_bd_wrapper -part xck26-sfvc784-2LV-c
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_kv260_rocket_wrapper_0_0/kv260_bd_kv260_rocket_wrapper_0_0.dcp' for cell 'kv260_bd_i/kv260_rocket_wrapper_0'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0.dcp' for cell 'kv260_bd_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/kv260_bd_smartconnect_0_0.dcp' for cell 'kv260_bd_i/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/kv260_bd_smartconnect_1_0.dcp' for cell 'kv260_bd_i/smartconnect_1'
+INFO: [Project 1-454] Reading design checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0.dcp' for cell 'kv260_bd_i/zynq_ultra_ps_e_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.49 ; elapsed = 00:00:00.49 . Memory (MB): peak = 2622.824 ; gain = 0.000 ; free physical = 9583 ; free virtual = 30970
+INFO: [Netlist 29-17] Analyzing 4957 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0.xdc] for cell 'kv260_bd_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_zynq_ultra_ps_e_0_0/kv260_bd_zynq_ultra_ps_e_0_0.xdc] for cell 'kv260_bd_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0_board.xdc] for cell 'kv260_bd_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/kv260_bd_proc_sys_reset_0_0_board.xdc] for cell 'kv260_bd_i/proc_sys_reset_0/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_62a4_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_62a4_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_0/inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_0/inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/ip/ip_1/bd_a2f5_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/ip/ip_1/bd_a2f5_psr_aclk_0_board.xdc] for cell 'kv260_bd_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_1/inst'
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.gen/sources_1/bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/smartconnect.xdc] for cell 'kv260_bd_i/smartconnect_1/inst'
+Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/kv260_timing.xdc]
+Finished Parsing XDC File [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/kv260_timing.xdc]
+INFO: [Project 1-1714] 44 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3677.227 ; gain = 0.000 ; free physical = 8789 ; free virtual = 30186
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 529 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 50 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  RAM256X1D => RAM256X1D (MUXF7(x4), MUXF8(x2), RAMD64E(x8)): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 21 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 303 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 7 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 2 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 114 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 22 instances
+
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 3677.262 ; gain = 2089.172 ; free physical = 8790 ; free virtual = 30188
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.34 . Memory (MB): peak = 3677.262 ; gain = 0.000 ; free physical = 8781 ; free virtual = 30180
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3677.262 ; gain = 0.000 ; free physical = 8774 ; free virtual = 30174
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 4025.039 ; gain = 0.000 ; free physical = 8448 ; free virtual = 29848
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.09 . Memory (MB): peak = 4025.039 ; gain = 0.000 ; free physical = 8447 ; free virtual = 29846
+Phase 1 Initialization | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.09 . Memory (MB): peak = 4025.039 ; gain = 0.000 ; free physical = 8447 ; free virtual = 29846
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Detect if minReqCache needed
+Phase 2.1 Detect if minReqCache needed | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.14 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8390 ; free virtual = 29789
+
+Phase 2.2 Timer Update
+Phase 2.2 Timer Update | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8402 ; free virtual = 29801
+
+Phase 2.3 Timing Data Collection
+Phase 2.3 Timing Data Collection | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8402 ; free virtual = 29801
+Phase 2 Timer Update And Timing Data Collection | Checksum: 18871c00b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8402 ; free virtual = 29801
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 150 inverters resulting in an inversion of 2808 pins
+INFO: [Opt 31-138] Pushed 57 inverter(s) to 2907 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1b064d2c2
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8405 ; free virtual = 29804
+Retarget | Checksum: 1b064d2c2
+INFO: [Opt 31-389] Phase Retarget created 116 cells and removed 582 cells
+INFO: [Opt 31-1021] In phase Retarget, 41 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 3 load pin(s).
+Phase 4 Constant propagation | Checksum: 1c573639e
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8407 ; free virtual = 29807
+Constant propagation | Checksum: 1c573639e
+INFO: [Opt 31-389] Phase Constant propagation created 250 cells and removed 839 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 41 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4073.039 ; gain = 0.000 ; free physical = 8407 ; free virtual = 29806
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4073.039 ; gain = 0.000 ; free physical = 8407 ; free virtual = 29807
+Phase 5 Sweep | Checksum: 1c6fb4205
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 4073.039 ; gain = 48.000 ; free physical = 8407 ; free virtual = 29806
+Sweep | Checksum: 1c6fb4205
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 436 cells
+INFO: [Opt 31-1021] In phase Sweep, 51 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/gated_clock_debug_clock_gate/_gated_clock_debug_clock_gate_out_BUFG_inst to drive 1085 load(s) on clock net kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/gated_clock_debug_clock_gate/_gated_clock_debug_clock_gate_out_BUFGCE
+INFO: [Opt 31-194] Inserted BUFG kv260_bd_i/zynq_ultra_ps_e_0/inst/emio_gpio_o[2]_BUFG_inst to drive 300 load(s) on clock net kv260_bd_i/zynq_ultra_ps_e_0/inst/emio_gpio_o_BUFG[2]
+INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 6 BUFG optimization | Checksum: 1cb114b9f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8442 ; free virtual = 29847
+BUFG optimization | Checksum: 1cb114b9f
+INFO: [Opt 31-662] Phase BUFG optimization created 2 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1cb114b9f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8521 ; free virtual = 29914
+Shift Register Optimization | Checksum: 1cb114b9f
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1929d0c6e
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8414 ; free virtual = 29815
+Post Processing Netlist | Checksum: 1929d0c6e
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 41 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 1f6566172
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8405 ; free virtual = 29808
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 4105.055 ; gain = 0.000 ; free physical = 8401 ; free virtual = 29805
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 1f6566172
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8401 ; free virtual = 29804
+Phase 9 Finalization | Checksum: 1f6566172
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8401 ; free virtual = 29804
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             116  |             582  |                                             41  |
+|  Constant propagation         |             250  |             839  |                                             41  |
+|  Sweep                        |               0  |             436  |                                             51  |
+|  BUFG optimization            |               2  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             41  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1f6566172
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 4105.055 ; gain = 80.016 ; free physical = 8401 ; free virtual = 29804
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 168 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 128 newly gated: 0 Total Ports: 336
+Ending PowerOpt Patch Enables Task | Checksum: 2d5ec1996
+
+Time (s): cpu = 00:00:00.37 ; elapsed = 00:00:00.37 . Memory (MB): peak = 4386.430 ; gain = 0.000 ; free physical = 8030 ; free virtual = 29448
+Ending Power Optimization Task | Checksum: 2d5ec1996
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 4386.430 ; gain = 281.375 ; free physical = 8028 ; free virtual = 29447
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 2d5ec1996
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4386.430 ; gain = 0.000 ; free physical = 8028 ; free virtual = 29447
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4386.430 ; gain = 0.000 ; free physical = 8028 ; free virtual = 29447
+INFO: [Common 17-83] Releasing license: Implementation
+52 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 4386.430 ; gain = 709.168 ; free physical = 8028 ; free virtual = 29446
+INFO: [Vivado 12-24828] Executing command : report_drc -file kv260_bd_wrapper_drc_opted.rpt -pb kv260_bd_wrapper_drc_opted.pb -rpx kv260_bd_wrapper_drc_opted.rpx
+Command: report_drc -file kv260_bd_wrapper_drc_opted.rpt -pb kv260_bd_wrapper_drc_opted.pb -rpx kv260_bd_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 4781.645 ; gain = 395.215 ; free physical = 7694 ; free virtual = 29251
+generate_parallel_reports: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 4781.645 ; gain = 395.215 ; free physical = 7694 ; free virtual = 29251
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7694 ; free virtual = 29251
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7694 ; free virtual = 29251
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.07 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7678 ; free virtual = 29250
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.58 ; elapsed = 00:00:00.15 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7674 ; free virtual = 29258
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7674 ; free virtual = 29258
+Wrote Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7694 ; free virtual = 29278
+Write Physdb Complete: Time (s): cpu = 00:00:00.62 ; elapsed = 00:00:00.16 . Memory (MB): peak = 4781.645 ; gain = 0.000 ; free physical = 7694 ; free virtual = 29278
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7581 ; free virtual = 29172
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1f104a553
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7581 ; free virtual = 29172
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7581 ; free virtual = 29171
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1541dbbf5
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7574 ; free virtual = 29168
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 19e0ba759
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7525 ; free virtual = 29121
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 19e0ba759
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7524 ; free virtual = 29121
+Phase 1 Placer Initialization | Checksum: 19e0ba759
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7524 ; free virtual = 29121
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 2529bc0e7
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:00:57 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7516 ; free virtual = 29131
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+INFO: [Place 30-3162] Check ILP status : ILP-based clock placer completed successfully.
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 1cf6271d6
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:00:58 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7513 ; free virtual = 29129
+
+Phase 2.1.1.3 PBP: Discrete Incremental
+Phase 2.1.1.3 PBP: Discrete Incremental | Checksum: 1b2042414
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:00:58 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7515 ; free virtual = 29131
+
+Phase 2.1.1.4 PBP: Compute Congestion
+Phase 2.1.1.4 PBP: Compute Congestion | Checksum: 1b2042414
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:02 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7011 ; free virtual = 29054
+
+Phase 2.1.1.5 PBP: Macro Placement
+Phase 2.1.1.5 PBP: Macro Placement | Checksum: 21e7620d1
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:02 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7006 ; free virtual = 29049
+
+Phase 2.1.1.6 PBP: UpdateTiming
+Phase 2.1.1.6 PBP: UpdateTiming | Checksum: 1270e9226
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:05 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7012 ; free virtual = 29056
+
+Phase 2.1.1.7 PBP: Add part constraints
+Phase 2.1.1.7 PBP: Add part constraints | Checksum: 1270e9226
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:05 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7013 ; free virtual = 29056
+Phase 2.1.1 Partition Driven Placement | Checksum: 1270e9226
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:05 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7014 ; free virtual = 29057
+Phase 2.1 Floorplanning | Checksum: 1d5bab4d3
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:05 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7014 ; free virtual = 29057
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1d5bab4d3
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:05 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7015 ; free virtual = 29059
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1fc4ff3d3
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:05 . Memory (MB): peak = 4877.691 ; gain = 0.000 ; free physical = 7018 ; free virtual = 29061
+
+Phase 2.4 Global Place Phase1
+Phase 2.4 Global Place Phase1 | Checksum: 1e3f0a7e4
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:02:20 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6979 ; free virtual = 29009
+
+Phase 2.5 Global Place Phase2
+
+Phase 2.5.1 UpdateTiming Before Physical Synthesis
+Phase 2.5.1 UpdateTiming Before Physical Synthesis | Checksum: 1d4a3b8b5
+
+Time (s): cpu = 00:03:47 ; elapsed = 00:02:23 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6974 ; free virtual = 29004
+
+Phase 2.5.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 842 LUTNM shape to break, 2064 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 312, two critical 530, total 842, new lutff created 14
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 1657 nets or LUTs. Breaked 842 LUTs, combined 815 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 91 candidate driver sets for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 83 nets.  Re-placed 263 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 83 nets or cells. Created 0 new cell, deleted 6 existing cells and moved 263 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.18 . Memory (MB): peak = 5056.684 ; gain = 0.000 ; free physical = 6896 ; free virtual = 28930
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1401] No candidate cells found for Shift Register optimization.
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5056.684 ; gain = 0.000 ; free physical = 6929 ; free virtual = 28963
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |          842  |            815  |                  1657  |           0  |           1  |  00:00:01  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              6  |                    83  |           0  |           1  |  00:00:02  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |          842  |            821  |                  1740  |           0  |          10  |  00:00:03  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.5.2 Physical Synthesis In Placer | Checksum: 27de4fb46
+
+Time (s): cpu = 00:03:54 ; elapsed = 00:02:29 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6927 ; free virtual = 28961
+Phase 2.5 Global Place Phase2 | Checksum: 199a68805
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:02:54 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6949 ; free virtual = 28987
+Phase 2 Global Placement | Checksum: 199a68805
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:02:54 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6949 ; free virtual = 28987
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 210065b93
+
+Time (s): cpu = 00:04:52 ; elapsed = 00:03:01 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6971 ; free virtual = 29009
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 201d785ca
+
+Time (s): cpu = 00:04:58 ; elapsed = 00:03:04 . Memory (MB): peak = 5056.684 ; gain = 178.992 ; free physical = 6975 ; free virtual = 29014
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 16b6c3751
+
+Time (s): cpu = 00:05:41 ; elapsed = 00:03:28 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 6207 ; free virtual = 28359
+
+Phase 3.3.2 Slice Area Swap
+
+Phase 3.3.2.1 Slice Area Swap Initial
+Phase 3.3.2.1 Slice Area Swap Initial | Checksum: 250c1d158
+
+Time (s): cpu = 00:05:47 ; elapsed = 00:03:33 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 5844 ; free virtual = 28094
+Phase 3.3.2 Slice Area Swap | Checksum: 250c1d158
+
+Time (s): cpu = 00:05:47 ; elapsed = 00:03:33 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 5840 ; free virtual = 28090
+Phase 3.3 Small Shape DP | Checksum: 1e79bb1e6
+
+Time (s): cpu = 00:06:01 ; elapsed = 00:03:40 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4341 ; free virtual = 26801
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 1a3571779
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:03:43 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4035 ; free virtual = 26674
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 28e1b6d0b
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:03:43 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4032 ; free virtual = 26672
+Phase 3 Detail Placement | Checksum: 28e1b6d0b
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:03:44 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4033 ; free virtual = 26673
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 24937d116
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.556 | TNS=-78.181 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1566f250e
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 4166 ; free virtual = 26808
+INFO: [Place 46-35] Processed net kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/sync_0_reg_0, inserted BUFG to drive 2540 loads.
+INFO: [Place 46-45] Replicated bufg driver kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/sync_0_reg_replica
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 1, Replicated BUFG Driver: 1, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 25c63aa6f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 4148 ; free virtual = 26790
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1d1ad000e
+
+Time (s): cpu = 00:06:34 ; elapsed = 00:04:03 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4145 ; free virtual = 26787
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.503. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1cb5c9e42
+
+Time (s): cpu = 00:06:53 ; elapsed = 00:04:17 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4008 ; free virtual = 26750
+
+Time (s): cpu = 00:06:53 ; elapsed = 00:04:17 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4008 ; free virtual = 26750
+Phase 4.1 Post Commit Optimization | Checksum: 1cb5c9e42
+
+Time (s): cpu = 00:06:53 ; elapsed = 00:04:17 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4013 ; free virtual = 26759
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.1 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 4024 ; free virtual = 26825
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 189a81027
+
+Time (s): cpu = 00:07:04 ; elapsed = 00:04:24 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4024 ; free virtual = 26825
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 189a81027
+
+Time (s): cpu = 00:07:04 ; elapsed = 00:04:24 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4023 ; free virtual = 26831
+Phase 4.3 Placer Reporting | Checksum: 189a81027
+
+Time (s): cpu = 00:07:05 ; elapsed = 00:04:24 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4024 ; free virtual = 26836
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 4024 ; free virtual = 26836
+
+Time (s): cpu = 00:07:05 ; elapsed = 00:04:24 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4024 ; free virtual = 26836
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 20690524b
+
+Time (s): cpu = 00:07:05 ; elapsed = 00:04:25 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4026 ; free virtual = 26838
+Ending Placer Task | Checksum: 17ff6192c
+
+Time (s): cpu = 00:07:06 ; elapsed = 00:04:25 . Memory (MB): peak = 5127.730 ; gain = 250.039 ; free physical = 4028 ; free virtual = 26840
+101 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:07:09 ; elapsed = 00:04:27 . Memory (MB): peak = 5127.730 ; gain = 346.086 ; free physical = 4025 ; free virtual = 26837
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_io -file kv260_bd_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.17 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 4017 ; free virtual = 26834
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file kv260_bd_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.21 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3995 ; free virtual = 26816
+INFO: [Vivado 12-24828] Executing command : report_utilization -file kv260_bd_wrapper_utilization_placed.rpt -pb kv260_bd_wrapper_utilization_placed.pb
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.12 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3969 ; free virtual = 26816
+Wrote PlaceDB: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3809 ; free virtual = 26792
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3809 ; free virtual = 26792
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3808 ; free virtual = 26792
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3808 ; free virtual = 26803
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3805 ; free virtual = 26803
+Write Physdb Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 3805 ; free virtual = 26803
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2721 ; free virtual = 26287
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 0.508 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+112 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2710 ; free virtual = 26278
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.09 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2684 ; free virtual = 26284
+Wrote PlaceDB: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2415 ; free virtual = 26212
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2415 ; free virtual = 26212
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2414 ; free virtual = 26217
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2399 ; free virtual = 26214
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2399 ; free virtual = 26217
+Write Physdb Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2398 ; free virtual = 26218
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 3f211f7e ConstDB: 0 ShapeSum: bc72017d RouteDB: 8462f831
+Nodegraph reading from file.  Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.3 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 2440 ; free virtual = 26218
+Post Restoration Checksum: NetGraph: 374817e2 | NumContArr: 3e93766 | Constraints: 7458074a | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 17232512f
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1748 ; free virtual = 25797
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 17232512f
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1753 ; free virtual = 25802
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 17232512f
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1762 ; free virtual = 25811
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 1a767cfe0
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:15 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1590 ; free virtual = 25640
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 220dda445
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:21 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1467 ; free virtual = 25155
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.686  | TNS=0.000  | WHS=-1.451 | THS=-2838.941|
+
+
+Phase 2.5 Soft Constraint Pins - Fast Budgeting
+Phase 2.5 Soft Constraint Pins - Fast Budgeting | Checksum: 27abdd64b
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:31 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1739 ; free virtual = 25247
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.000137191 %
+  Global Horizontal Routing Utilization  = 0.000424785 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 117898
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 75051
+  Number of Partially Routed Nets     = 42847
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1f0953919
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:33 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1736 ; free virtual = 25244
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 1f0953919
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:33 . Memory (MB): peak = 5127.730 ; gain = 0.000 ; free physical = 1736 ; free virtual = 25245
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 11310a478
+
+Time (s): cpu = 00:03:03 ; elapsed = 00:01:40 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 723 ; free virtual = 23824
+Phase 4 Initial Routing | Checksum: 14d9d99c7
+
+Time (s): cpu = 00:03:04 ; elapsed = 00:01:40 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 721 ; free virtual = 23822
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 33781
+ Number of Nodes with overlaps = 2930
+ Number of Nodes with overlaps = 333
+ Number of Nodes with overlaps = 110
+ Number of Nodes with overlaps = 28
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.044 | TNS=-7161.384| WHS=-0.038 | THS=-0.200 |
+
+Phase 5.1 Global Iteration 0 | Checksum: 237e3b5d1
+
+Time (s): cpu = 00:06:03 ; elapsed = 00:03:31 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1584 ; free virtual = 24456
+
+Phase 5.2 Global Iteration 1
+ Number of Nodes with overlaps = 981
+ Number of Nodes with overlaps = 91
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.679 | TNS=-282.854| WHS=N/A    | THS=N/A    |
+
+Phase 5.2 Global Iteration 1 | Checksum: 1de800ead
+
+Time (s): cpu = 00:06:26 ; elapsed = 00:03:47 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1611 ; free virtual = 24486
+
+Phase 5.3 Global Iteration 2
+ Number of Nodes with overlaps = 174
+ Number of Nodes with overlaps = 24
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.827 | TNS=-67.639| WHS=N/A    | THS=N/A    |
+
+Phase 5.3 Global Iteration 2 | Checksum: 1c769db3c
+
+Time (s): cpu = 00:06:41 ; elapsed = 00:03:58 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1524 ; free virtual = 24405
+
+Phase 5.4 Global Iteration 3
+ Number of Nodes with overlaps = 387
+ Number of Nodes with overlaps = 65
+ Number of Nodes with overlaps = 31
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.261 | TNS=-2.345 | WHS=N/A    | THS=N/A    |
+
+Phase 5.4 Global Iteration 3 | Checksum: 11a4c132b
+
+Time (s): cpu = 00:07:09 ; elapsed = 00:04:19 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1662 ; free virtual = 24544
+
+Phase 5.5 Global Iteration 4
+ Number of Nodes with overlaps = 556
+ Number of Nodes with overlaps = 75
+ Number of Nodes with overlaps = 29
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.055  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.5 Global Iteration 4 | Checksum: 1e9479050
+
+Time (s): cpu = 00:07:28 ; elapsed = 00:04:34 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1677 ; free virtual = 24561
+Phase 5 Rip-up And Reroute | Checksum: 1e9479050
+
+Time (s): cpu = 00:07:28 ; elapsed = 00:04:34 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1676 ; free virtual = 24561
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+Phase 6.1 Delay CleanUp | Checksum: 24d12031f
+
+Time (s): cpu = 00:07:28 ; elapsed = 00:04:34 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1676 ; free virtual = 24561
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 24d12031f
+
+Time (s): cpu = 00:07:28 ; elapsed = 00:04:34 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1676 ; free virtual = 24561
+Phase 6 Delay and Skew Optimization | Checksum: 24d12031f
+
+Time (s): cpu = 00:07:29 ; elapsed = 00:04:34 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1673 ; free virtual = 24557
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.055  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:40 ; elapsed = 00:04:41 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1629 ; free virtual = 24514
+Phase 7 Post Hold Fix | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:40 ; elapsed = 00:04:41 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1628 ; free virtual = 24514
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 20.6364 %
+  Global Horizontal Routing Utilization  = 20.6222 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:41 ; elapsed = 00:04:41 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1629 ; free virtual = 24514
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:42 ; elapsed = 00:04:41 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1629 ; free virtual = 24514
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:47 ; elapsed = 00:04:46 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1622 ; free virtual = 24507
+
+Phase 11 Resolve XTalk
+Phase 11 Resolve XTalk | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:47 ; elapsed = 00:04:46 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1619 ; free virtual = 24505
+
+Phase 12 Post Process Routing
+Phase 12 Post Process Routing | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:48 ; elapsed = 00:04:47 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1621 ; free virtual = 24506
+
+Phase 13 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.055  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 13 Post Router Timing | Checksum: 1906eb137
+
+Time (s): cpu = 00:07:49 ; elapsed = 00:04:47 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1617 ; free virtual = 24503
+Total Elapsed time in route_design: 286.81 secs
+
+Phase 14 Post-Route Event Processing
+Phase 14 Post-Route Event Processing | Checksum: 1be414d36
+
+Time (s): cpu = 00:07:49 ; elapsed = 00:04:47 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1617 ; free virtual = 24504
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 1be414d36
+
+Time (s): cpu = 00:07:50 ; elapsed = 00:04:48 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1610 ; free virtual = 24497
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+127 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:07:51 ; elapsed = 00:04:48 . Memory (MB): peak = 5447.730 ; gain = 320.000 ; free physical = 1610 ; free virtual = 24497
+INFO: [Vivado 12-24828] Executing command : report_drc -file kv260_bd_wrapper_drc_routed.rpt -pb kv260_bd_wrapper_drc_routed.pb -rpx kv260_bd_wrapper_drc_routed.rpx
+Command: report_drc -file kv260_bd_wrapper_drc_routed.rpt -pb kv260_bd_wrapper_drc_routed.pb -rpx kv260_bd_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:26 ; elapsed = 00:00:14 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1525 ; free virtual = 24418
+INFO: [Vivado 12-24828] Executing command : report_methodology -file kv260_bd_wrapper_methodology_drc_routed.rpt -pb kv260_bd_wrapper_methodology_drc_routed.pb -rpx kv260_bd_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file kv260_bd_wrapper_methodology_drc_routed.rpt -pb kv260_bd_wrapper_methodology_drc_routed.pb -rpx kv260_bd_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1460 ; free virtual = 24356
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file kv260_bd_wrapper_timing_summary_routed.rpt -pb kv260_bd_wrapper_timing_summary_routed.pb -rpx kv260_bd_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1666 ; free virtual = 24565
+INFO: [Vivado 12-24838] Running report commands "report_bus_skew, report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file kv260_bd_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file kv260_bd_wrapper_bus_skew_routed.rpt -pb kv260_bd_wrapper_bus_skew_routed.pb -rpx kv260_bd_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Vivado 12-24828] Executing command : report_route_status -file kv260_bd_wrapper_route_status.rpt -pb kv260_bd_wrapper_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_power -file kv260_bd_wrapper_power_routed.rpt -pb kv260_bd_wrapper_power_summary_routed.pb -rpx kv260_bd_wrapper_power_routed.rpx
+Command: report_power -file kv260_bd_wrapper_power_routed.rpt -pb kv260_bd_wrapper_power_summary_routed.pb -rpx kv260_bd_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+147 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1940 ; free virtual = 24855
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file kv260_bd_wrapper_clock_utilization_routed.rpt
+generate_parallel_reports: Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1949 ; free virtual = 24864
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.11 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1921 ; free virtual = 24861
+Wrote PlaceDB: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1822 ; free virtual = 24868
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1822 ; free virtual = 24868
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.75 ; elapsed = 00:00:00.53 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1783 ; free virtual = 24857
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1775 ; free virtual = 24861
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1767 ; free virtual = 24856
+Write Physdb Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 5447.730 ; gain = 0.000 ; free physical = 1767 ; free virtual = 24856
+INFO: [Common 17-1381] The checkpoint '/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/impl_1/kv260_bd_wrapper_routed.dcp' has been generated.
+
+WARNING::74 - Unsupported FPGA device name 'xck26-sfvc784-2LV-c'. Verify that the specified device is a valid customer supported device.
+-p xck26-sfvc784-2LV-c
+   ^
+
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_1/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the kv260_bd_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+Command: write_bitstream -force kv260_bd_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Integrating Hard IP ELF/MEM with the PDI.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./kv260_bd_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+168 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 5599.316 ; gain = 151.586 ; free physical = 1583 ; free virtual = 24566
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 09:31:32 2026...
+[Thu Oct 15 09:31:33 2026] impl_1 finished
+wait_on_runs: Time (s): cpu = 00:18:55 ; elapsed = 00:11:52 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5870 ; free virtual = 28852
+Netlist sorting complete. Time (s): cpu = 00:00:00.48 ; elapsed = 00:00:00.48 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5886 ; free virtual = 28869
+INFO: [Netlist 29-17] Analyzing 4947 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.1 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5910 ; free virtual = 28893
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5898 ; free virtual = 28882
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5898 ; free virtual = 28882
+Read PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5883 ; free virtual = 28867
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3957.965 ; gain = 0.000 ; free physical = 5883 ; free virtual = 28867
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 4105.934 ; gain = 147.969 ; free physical = 5700 ; free virtual = 28687
+Read Physdb Files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4105.934 ; gain = 147.969 ; free physical = 5700 ; free virtual = 28687
+Restored from archive | CPU: 6.480000 secs | Memory: 557.447334 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4105.934 ; gain = 147.969 ; free physical = 5700 ; free virtual = 28687
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4105.934 ; gain = 0.000 ; free physical = 5700 ; free virtual = 28687
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 529 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 50 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  RAM256X1D => RAM256X1D (MUXF7(x4), MUXF8(x2), RAMD64E(x8)): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 21 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 303 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 7 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 2 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 114 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 22 instances
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 4105.969 ; gain = 148.004 ; free physical = 5700 ; free virtual = 28687
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 4375.512 ; gain = 269.543 ; free physical = 5348 ; free virtual = 28337
+Command: report_methodology -file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/impl_methodology.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/impl_methodology.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 4515.980 ; gain = 140.469 ; free physical = 5104 ; free virtual = 28098
+report_io: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.17 . Memory (MB): peak = 4515.980 ; gain = 0.000 ; free physical = 5104 ; free virtual = 28099
+INFO: [Projectvivado 1-1918] Creating Hardware Platform: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260.xsa ...
+INFO: [Projectvivado 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Projectvivado 1-1941] Successfully created Hardware Platform: /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (/ssd3/tools/Xilinx/2025.2/data/embeddedsw) loading 0 seconds
+write_hw_platform: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 5243.949 ; gain = 727.969 ; free physical = 4428 ; free virtual = 27450
+=== BUILD DONE Thu Oct 15 09:32:25 +07 2026
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 09:32:25 2026...

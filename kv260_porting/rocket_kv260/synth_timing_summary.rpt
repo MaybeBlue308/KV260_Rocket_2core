@@ -1,0 +1,506 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date              : Tue Oct 13 23:40:35 2026
+| Host              : DESKTOP-4B2MS3Q running 64-bit major release  (build 9200)
+| Command           : report_timing_summary -file D:/WORK_FOR_MONEY/kv260_porting/rocket_kv260/synth_timing_summary.rpt
+| Design            : kv260_bd_wrapper
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.30 05-15-2022
+| Design State      : Synthesized
+| Temperature Grade : C
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (308)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (675)
+5. checking no_input_delay (2)
+6. checking no_output_delay (6)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (308)
+--------------------------
+ There are 300 register/latch pins with no clock driven by root clock pin: kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/EMIOGPIOO[2] (HIGH)
+
+ There are 8 register/latch pins with no clock (HIGH)
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (675)
+--------------------------------------------------
+ There are 675 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (2)
+------------------------------
+ There are 2 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (6)
+-------------------------------
+ There are 6 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      2.103        0.000                      0               303566       -0.308     -636.388                  17848               303566        3.500        0.000                       0                 68571  
+
+
+Timing constraints are not met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock     Waveform(ns)       Period(ns)      Frequency(MHz)
+-----     ------------       ----------      --------------
+clk_pl_0  {0.000 5.000}      10.000          100.000         
+clk_pl_1  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_pl_0            2.103        0.000                      0               303507       -0.308     -632.852                  17808               303507        3.500        0.000                       0                 68571  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group         From Clock         To Clock               WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------         ----------         --------               -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+**async_default**  clk_pl_0           clk_pl_0                 8.819        0.000                      0                   59       -0.107       -3.536                     40                   59  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        2.103ns,  Total Violation        0.000ns
+Hold  :        17808  Failing Endpoints,  Worst Slack       -0.308ns,  Total Violation     -632.852ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             2.103ns  (required time - arrival time)
+  Source:                 kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/request_set_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/probes_done_reg[0]/R
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pl_0 rise@10.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        7.474ns  (logic 2.872ns (38.427%)  route 4.602ns (61.573%))
+  Logic Levels:           22  (LUT1=1 LUT2=2 LUT4=1 LUT5=6 LUT6=11 RAMD64E=1)
+  Clock Path Skew:        -0.145ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.655ns = ( 12.655 - 10.000 ) 
+    Source Clock Delay      (SCD):    2.851ns
+    Clock Pessimism Removal (CPR):    0.051ns
+  Clock Uncertainty:      0.160ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.312ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+                         PS8                          0.000     0.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.229     0.229    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     2.584     2.851    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/clk
+                         FDRE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/request_set_reg[3]/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_FDRE_C_Q)         0.114     2.965 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/request_set_reg[3]/Q
+                         net (fo=10, unplaced)        0.207     3.172    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/request_set_reg[9]_0[3]
+                         LUT6 (Prop_LUT6_I0_O)        0.225     3.397 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/robin_filter[6]_i_69/O
+                         net (fo=1, unplaced)         0.153     3.550    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/robin_filter[6]_i_69_n_0
+                         LUT6 (Prop_LUT6_I0_O)        0.137     3.687 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/robin_filter[6]_i_40/O
+                         net (fo=2, unplaced)         0.211     3.898    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/_mshr_request_T_22911_out
+                         LUT5 (Prop_LUT5_I4_O)        0.058     3.956 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/set_r[9]_i_26/O
+                         net (fo=1, unplaced)         0.211     4.167    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/set_r[9]_i_26_n_0
+                         LUT6 (Prop_LUT6_I2_O)        0.058     4.225 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/set_r[9]_i_13/O
+                         net (fo=5, unplaced)         0.135     4.360    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/full_reg
+                         LUT6 (Prop_LUT6_I0_O)        0.225     4.585 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/set_r[9]_i_10/O
+                         net (fo=2, unplaced)         0.153     4.738    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/_GEN_91
+                         LUT5 (Prop_LUT5_I0_O)        0.137     4.875 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/set_r[9]_i_5/O
+                         net (fo=170, unplaced)       0.308     5.183    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/p_3_in
+                         LUT6 (Prop_LUT6_I5_O)        0.058     5.241 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/Memory_reg_0_15_0_0_i_41/O
+                         net (fo=1, unplaced)         0.211     5.452    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/Memory_reg_0_15_0_0_i_41_n_0
+                         LUT5 (Prop_LUT5_I1_O)        0.058     5.510 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/Memory_reg_0_15_0_0_i_22/O
+                         net (fo=2, unplaced)         0.211     5.721    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/p_0_in13_out[2]
+                         LUT6 (Prop_LUT6_I5_O)        0.058     5.779 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/Memory_reg_0_15_0_0_i_7/O
+                         net (fo=63, unplaced)        0.286     6.065    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/head_ext/p_4_out[0]
+                         LUT6 (Prop_LUT6_I4_O)        0.058     6.123 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/head_ext/Memory_reg_0_63_0_5_i_50__0/O
+                         net (fo=1, unplaced)         0.154     6.277    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/head_ext/Memory_reg_0_63_0_5_i_50__0_n_0
+                         LUT6 (Prop_LUT6_I0_O)        0.152     6.429 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/head_ext/Memory_reg_0_63_0_5_i_25__0/O
+                         net (fo=1, unplaced)         0.211     6.640    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/head_ext/Memory_reg_0_63_0_5_i_25__0_n_0
+                         LUT5 (Prop_LUT5_I0_O)        0.058     6.698 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/head_ext/Memory_reg_0_63_0_5_i_6__0/O
+                         net (fo=63, unplaced)        0.195     6.893    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/Memory_reg_0_63_21_27/ADDRG0
+                         RAMD64E (Prop_RAMD64E_RADR0_O)
+                                                      0.226     7.119 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/data_ext/Memory_reg_0_63_21_27/RAMG/O
+                         net (fo=17, unplaced)        0.164     7.283    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/R0_data0[9]
+                         LUT6 (Prop_LUT6_I1_O)        0.225     7.508 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/tag[14]_i_6/O
+                         net (fo=1, unplaced)         0.154     7.662    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/tag[14]_i_6_n_0
+                         LUT5 (Prop_LUT5_I1_O)        0.152     7.814 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_0/tag[14]_i_4/O
+                         net (fo=26, unplaced)        0.203     8.017    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/lb_tag_mismatch
+                         LUT2 (Prop_LUT2_I1_O)        0.138     8.155 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/requests/state_0_i_9/O
+                         net (fo=8, unplaced)         0.176     8.331    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/_GEN_220
+                         LUT4 (Prop_LUT4_I2_O)        0.138     8.469 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/request_set[9]_i_5__3/O
+                         net (fo=34, unplaced)        0.209     8.678    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/_GEN_16
+                         LUT5 (Prop_LUT5_I2_O)        0.082     8.760 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/meta_clients[0]_i_11__4/O
+                         net (fo=1, unplaced)         0.117     8.877    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/meta_clients[0]_i_11__4_n_0
+                         LUT6 (Prop_LUT6_I0_O)        0.225     9.102 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/meta_clients[0]_i_6__4/O
+                         net (fo=1, unplaced)         0.153     9.255    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/sinkC/c_q/ram_ext/meta_way_reg[2]
+                         LUT6 (Prop_LUT6_I3_O)        0.137     9.392 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/sinkC/c_q/ram_ext/meta_clients[0]_i_3__0/O
+                         net (fo=31, unplaced)        0.270     9.662    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/sinkC/c_q/ram_ext/valid_reg[15]_0
+                         LUT2 (Prop_LUT2_I1_O)        0.058     9.720 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/sinkC/c_q/ram_ext/bad_grant_i_2__0/O
+                         net (fo=29, unplaced)        0.268     9.988    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/sinkC/c_q/ram_ext/directoryFanout_reg[1]_0
+                         LUT1 (Prop_LUT1_I0_O)        0.095    10.083 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/sinkC/c_q/ram_ext/probes_toN[1]_i_1__0/O
+                         net (fo=6, unplaced)         0.242    10.325    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/SR[0]
+                         FDRE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/probes_done_reg[0]/R
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                     10.000    10.000 r  
+                         PS8                          0.000    10.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.181    10.181    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035    10.216 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     2.439    12.655    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/clk
+                         FDRE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/probes_done_reg[0]/C
+                         clock pessimism              0.051    12.706    
+                         clock uncertainty           -0.160    12.546    
+                         FDRE (Setup_FDRE_C_R)       -0.118    12.428    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/coh_wrapper/l2/inclusive_cache_bank_sched/mshrs_1/probes_done_reg[0]
+  -------------------------------------------------------------------
+                         required time                         12.428    
+                         arrival time                         -10.325    
+  -------------------------------------------------------------------
+                         slack                                  2.103    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -0.308ns  (arrival time - required time)
+  Source:                 kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/sb2tlOpt/sbState_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/SBCSFieldsReg_sbbusy_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (clk_pl_0 rise@0.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.356ns  (logic 0.198ns (55.618%)  route 0.158ns (44.382%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.563ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    3.269ns
+    Source Clock Delay      (SCD):    2.655ns
+    Clock Pessimism Removal (CPR):    0.051ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+                         PS8                          0.000     0.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.181     0.181    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035     0.216 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     2.439     2.655    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/sb2tlOpt/clk
+                         FDRE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/sb2tlOpt/sbState_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_FDRE_C_Q)         0.112     2.767 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/sb2tlOpt/sbState_reg[2]/Q
+                         net (fo=31, unplaced)        0.129     2.896    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/_sb2tlOpt_io_sbStateOut[2]
+                         LUT5 (Prop_LUT5_I2_O)        0.086     2.982 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/SBCSFieldsReg_sbbusy_i_1/O
+                         net (fo=1, unplaced)         0.029     3.011    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/SBCSFieldsReg_sbbusy_i_1_n_0
+                         FDRE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/SBCSFieldsReg_sbbusy_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+                         PS8                          0.000     0.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.229     0.229    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     2.584     2.851    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/gated_clock_debug_clock_gate/clk
+                         LUT2 (Prop_LUT2_I1_O)        0.058     2.909 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/gated_clock_debug_clock_gate/ABSTRACTAUTOReg_autoexecdata[7]_i_3/O
+                         net (fo=1085, unplaced)      0.360     3.269    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/_gated_clock_debug_clock_gate_out
+                         FDRE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/SBCSFieldsReg_sbbusy_reg/C
+                         clock pessimism             -0.051     3.218    
+                         FDRE (Hold_FDRE_C_D)         0.101     3.319    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmInner/SBCSFieldsReg_sbbusy_reg
+  -------------------------------------------------------------------
+                         required time                         -3.319    
+                         arrival time                           3.011    
+  -------------------------------------------------------------------
+                         slack                                 -0.308    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_pl_0
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0] }
+
+Check Type        Corner  Lib Pin          Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     PS8/SAXIGP2RCLK  n/a            3.000         10.000      7.000                kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/SAXIGP2RCLK
+Low Pulse Width   Slow    PS8/SAXIGP2RCLK  n/a            1.500         5.000       3.500                kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/SAXIGP2RCLK
+High Pulse Width  Slow    PS8/SAXIGP2RCLK  n/a            1.500         5.000       3.500                kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/SAXIGP2RCLK
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        8.819ns,  Total Violation        0.000ns
+Hold  :           40  Failing Endpoints,  Worst Slack       -0.107ns,  Total Violation       -3.536ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             8.819ns  (required time - arrival time)
+  Source:                 kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/sync_0_reg/C
+                            (rising edge-triggered cell FDCE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/clint_domain/intsource/reg_0/reg_0_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pl_0 rise@10.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.783ns  (logic 0.172ns (21.967%)  route 0.611ns (78.033%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Path Skew:        -0.145ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.655ns = ( 12.655 - 10.000 ) 
+    Source Clock Delay      (SCD):    2.851ns
+    Clock Pessimism Removal (CPR):    0.051ns
+  Clock Uncertainty:      0.160ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.312ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+                         PS8                          0.000     0.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.229     0.229    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     2.584     2.851    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/clk
+                         FDCE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/sync_0_reg/C
+  -------------------------------------------------------------------    -------------------
+                         FDCE (Prop_FDCE_C_Q)         0.114     2.965 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/sync_0_reg/Q
+                         net (fo=73, unplaced)        0.232     3.197    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/sync_0_reg_0
+                         LUT1 (Prop_LUT1_I0_O)        0.058     3.255 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/chipyard_prcictrl_domain/resetSynchronizer/nodeOut_member_allClocks_uncore_reset_catcher/io_sync_reset_chain/output_chain/out_i_1/O
+                         net (fo=2546, unplaced)      0.379     3.634    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/clint_domain/intsource/reg_0/_aggregator_auto_out_4_member_cbus_cbus_0_reset
+                         FDCE                                         f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/clint_domain/intsource/reg_0/reg_0_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                     10.000    10.000 r  
+                         PS8                          0.000    10.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.181    10.181    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035    10.216 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     2.439    12.655    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/clint_domain/intsource/reg_0/clk
+                         FDCE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/clint_domain/intsource/reg_0/reg_0_reg[0]/C
+                         clock pessimism              0.051    12.706    
+                         clock uncertainty           -0.160    12.546    
+                         FDCE (Recov_FDCE_C_CLR)     -0.093    12.453    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/clint_domain/intsource/reg_0/reg_0_reg[0]
+  -------------------------------------------------------------------
+                         required time                         12.453    
+                         arrival time                          -3.634    
+  -------------------------------------------------------------------
+                         slack                                  8.819    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -0.107ns  (arrival time - required time)
+  Source:                 kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/debug_reset_syncd_debug_reset_sync/output_chain/sync_0_reg/C
+                            (rising edge-triggered cell FDCE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmiXing/nodeIn_d_source/sink_extend/io_out_source_valid_0/output_chain/sync_0_reg/CLR
+                            (removal check against rising-edge clock clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_pl_0 rise@0.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.258ns  (logic 0.122ns (47.287%)  route 0.136ns (52.713%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.383ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.684ns
+    Source Clock Delay      (SCD):    1.265ns
+    Clock Pessimism Removal (CPR):    0.036ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+                         PS8                          0.000     0.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.129     0.129    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.022     0.151 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     1.114     1.265    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/debug_reset_syncd_debug_reset_sync/output_chain/clk
+                         FDCE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/debug_reset_syncd_debug_reset_sync/output_chain/sync_0_reg/C
+  -------------------------------------------------------------------    -------------------
+                         FDCE (Prop_FDCE_C_Q)         0.084     1.349 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/debug_reset_syncd_debug_reset_sync/output_chain/sync_0_reg/Q
+                         net (fo=3, unplaced)         0.045     1.394    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/debug_reset_syncd_debug_reset_sync/output_chain/sync_0
+                         LUT2 (Prop_LUT2_I0_O)        0.038     1.432 f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/debug_reset_syncd_debug_reset_sync/output_chain/sync_2_i_1__2/O
+                         net (fo=9, unplaced)         0.091     1.523    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmiXing/nodeIn_d_source/sink_extend/io_out_source_valid_0/output_chain/sync_1_reg_0
+                         FDCE                                         f  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmiXing/nodeIn_d_source/sink_extend/io_out_source_valid_0/output_chain/sync_0_reg/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+                         PS8                          0.000     0.000 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, unplaced)         0.164     0.164    kv260_bd_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+                         BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.023     0.187 r  kv260_bd_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+                         net (fo=67773, unplaced)     1.259     1.446    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/gated_clock_debug_clock_gate/clk
+                         LUT2 (Prop_LUT2_I1_O)        0.047     1.493 r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/gated_clock_debug_clock_gate/ABSTRACTAUTOReg_autoexecdata[7]_i_3/O
+                         net (fo=1085, unplaced)      0.191     1.684    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmiXing/nodeIn_d_source/sink_extend/io_out_source_valid_0/output_chain/_gated_clock_debug_clock_gate_out
+                         FDCE                                         r  kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmiXing/nodeIn_d_source/sink_extend/io_out_source_valid_0/output_chain/sync_0_reg/C
+                         clock pessimism             -0.036     1.648    
+                         FDCE (Remov_FDCE_C_CLR)     -0.018     1.630    kv260_bd_i/kv260_rocket_wrapper_0/inst/chiptop/system/tlDM/dmInner/dmiXing/nodeIn_d_source/sink_extend/io_out_source_valid_0/output_chain/sync_0_reg
+  -------------------------------------------------------------------
+                         required time                         -1.630    
+                         arrival time                           1.523    
+  -------------------------------------------------------------------
+                         slack                                 -0.107    
+
+
+
+
+

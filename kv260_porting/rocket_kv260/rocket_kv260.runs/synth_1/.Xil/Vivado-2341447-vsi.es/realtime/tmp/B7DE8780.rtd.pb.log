@@ -1,0 +1,293 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 17. [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/MulDiv.sv:79]
+DSP Report: Generating DSP _prod_T_40, operation Mode is: A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: PCIN+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: PCIN+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: PCIN+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: PCIN+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: PCIN+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: PCIN+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: Generating DSP _prod_T_40, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: register _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+DSP Report: operator _prod_T_40 is absorbed into DSP _prod_T_40.
+WARNING: [Synth 8-7129] Port io_req_bits_fn[4] in module MulDiv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_req_bits_fn[3] in module MulDiv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dmem_resp_bits_tag[6] in module Rocket is either unconnected or has no load
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[60]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[60]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[61]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[61]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[62]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[62]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[57]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[57]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[58]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[58]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[59]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[59]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[54]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[54]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[55]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[55]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[56]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[56]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[51]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[51]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[52]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[52]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[53]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[53]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[48]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[48]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[49]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[49]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[50]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[50]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[45]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[45]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[46]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[46]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[47]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[47]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[42]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[42]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[43]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[43]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[44]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[44]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[39]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[39]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[40]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[40]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[41]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[41]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[36]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[36]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[37]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[37]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[38]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[38]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[33]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[33]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[34]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[34]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[35]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[35]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[30]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[30]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[31]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[31]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[32]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[32]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[27]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[27]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[28]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[28]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[29]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[29]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[24]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[24]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[25]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[25]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[26]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[26]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[21]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[21]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[22]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[22]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[23]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[23]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[18]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[18]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[19]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[19]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[20]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[20]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[15]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[15]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[16]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[16]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[17]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[17]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[13]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[13]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/ex_reg_cause_reg[14]' (FDE) to 'core/ex_reg_cause_reg[5]'
+INFO: [Synth 8-3886] merging instance 'core/mem_reg_cause_reg[14]' (FDE) to 'core/mem_reg_cause_reg[5]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/\ex_reg_cause_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_mie_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_mcountinhibit_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_satp_mode_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[46] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[48] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[50] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[51] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[56] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[57] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[58] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[59] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[60] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[61] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[62] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (core/csr/\reg_misa_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (core/csr/\reg_misa_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (core/csr/\reg_misa_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (core/csr/\reg_misa_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (core/csr/\reg_misa_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_misa_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (core/csr/\reg_custom_0_reg[38] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.

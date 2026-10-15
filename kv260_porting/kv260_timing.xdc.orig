@@ -1,0 +1,35 @@
+# ==============================================================================
+# Constraints for Kria KV260 Dual-Core Rocket Chip
+# ==============================================================================
+
+# PMOD J2 Pin Constraints (Bank 44 - 3.3V)
+# SPI0: NOR Flash
+set_property PACKAGE_PIN H12 [get_ports spi0_sck]
+set_property IOSTANDARD LVCMOS33 [get_ports spi0_sck]
+
+set_property PACKAGE_PIN E10 [get_ports spi0_cs_n]
+set_property IOSTANDARD LVCMOS33 [get_ports spi0_cs_n]
+
+set_property PACKAGE_PIN D10 [get_ports spi0_mosi]
+set_property IOSTANDARD LVCMOS33 [get_ports spi0_mosi]
+
+set_property PACKAGE_PIN C11 [get_ports spi0_miso]
+set_property IOSTANDARD LVCMOS33 [get_ports spi0_miso]
+
+# SPI1: SD Card (SPI mode)
+set_property PACKAGE_PIN B10 [get_ports spi1_sck]
+set_property IOSTANDARD LVCMOS33 [get_ports spi1_sck]
+
+set_property PACKAGE_PIN E12 [get_ports spi1_cs_n]
+set_property IOSTANDARD LVCMOS33 [get_ports spi1_cs_n]
+
+set_property PACKAGE_PIN A10 [get_ports spi1_mosi]
+set_property IOSTANDARD LVCMOS33 [get_ports spi1_mosi]
+
+set_property PACKAGE_PIN D11 [get_ports spi1_miso]
+set_property IOSTANDARD LVCMOS33 [get_ports spi1_miso]
+set_property PULLUP true [get_ports spi1_miso]
+
+#Apply clock for JTAG
+create_clock -name jtag_tck -period 1000 [get_pins -hier -filter {NAME =~ *zynq_ultra_ps_e_0/inst/PS8_i/EMIOGPIOO[2]]
+set_clock_groups -asynchronous -group jtag_tck -group clk_pl_0

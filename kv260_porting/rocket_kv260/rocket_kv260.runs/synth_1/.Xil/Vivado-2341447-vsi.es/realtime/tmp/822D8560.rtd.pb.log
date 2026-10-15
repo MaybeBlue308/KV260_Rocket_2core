@@ -1,0 +1,350 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_0/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_1/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_2/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_3/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_4/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_5/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_6/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_7/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'history_reg[7:0]' into 'history_reg[7:0]' [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/BTB.sv:355]
+WARNING: [Synth 8-3917] design RocketTile__GCB1 has port io_requestor_1_resp_bits_tag[6] driven by constant 0
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[38] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[37] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[36] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[35] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[34] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[33] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[32] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[31] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[30] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[29] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[28] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[27] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[26] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[25] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[24] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[23] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[22] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[21] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[20] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[19] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[18] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[17] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[16] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[15] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[14] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[13] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[12] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[11] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[10] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[9] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[8] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[7] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[6] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[5] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[4] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[3] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_btb_update_bits_br_pc[2] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[38] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[37] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[36] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[35] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[34] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[33] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[32] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[31] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[30] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[29] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[28] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[27] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[26] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[25] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[24] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[23] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[22] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[21] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[20] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[19] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[18] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[17] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[16] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[15] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[14] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_bht_update_bits_pc[13] in module BTB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_prv[0] in module PMPChecker_s2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[38] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[37] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[36] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[35] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[34] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[33] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[32] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[31] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[30] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[29] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[28] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[27] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[26] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[25] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[24] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[23] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[22] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[21] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[20] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[19] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[18] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[17] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[16] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[15] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[14] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[13] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[12] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[11] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[10] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[9] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[8] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[7] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[6] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[5] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[4] in module ITLB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_sfence_bits_addr[3] in module ITLB is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\frontend/icache/rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg ") is too shallow (depth = 512) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_0/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_1/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_2/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_3/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_4/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_5/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_6/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6904] The RAM "\frontend/icache/rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_7/ram_reg " of size (depth=64 x width=21) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_0/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_data_arrays_1/rockettile_icache_data_arrays_0_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM rockettile_icache_tag_array/rockettile_icache_tag_array_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_0_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_0_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_0_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_0_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_0_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_0_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_0_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_0_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_0_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_0_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_0_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_0_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/special_entry_data_0_reg[17]' (FDE) to 'frontend/tlb/special_entry_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\special_entry_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/superpage_entries_3_data_0_reg[17]' (FDE) to 'frontend/tlb/superpage_entries_3_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\superpage_entries_3_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/superpage_entries_2_data_0_reg[17]' (FDE) to 'frontend/tlb/superpage_entries_2_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\superpage_entries_2_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/superpage_entries_1_data_0_reg[17]' (FDE) to 'frontend/tlb/superpage_entries_1_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\superpage_entries_1_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/superpage_entries_0_data_0_reg[17]' (FDE) to 'frontend/tlb/superpage_entries_0_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\superpage_entries_0_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_7_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_7_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_7_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_7_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_7_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_7_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_7_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_7_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_7_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_7_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_7_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_7_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_6_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_6_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_6_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_6_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_6_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_6_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_6_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_6_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_6_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_6_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_6_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_6_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_5_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_5_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_5_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_5_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_5_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_5_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_5_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_5_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_5_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_5_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_5_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_5_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_4_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_4_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_4_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_4_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_4_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_4_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_4_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_4_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_4_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_4_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_4_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_4_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_3_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_3_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_3_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_3_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_3_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_3_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_3_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_3_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_3_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_3_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_3_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_3_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_2_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_2_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_2_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_2_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_2_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_2_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_2_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_2_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_2_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_2_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_2_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_2_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_1_data_3_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_1_data_3_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_1_data_3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_1_data_2_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_1_data_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_1_data_2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_1_data_1_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_1_data_1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_1_data_1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/tlb/sectored_entries_0_1_data_0_reg[17]' (FDE) to 'frontend/tlb/sectored_entries_0_1_data_0_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/tlb /\sectored_entries_0_1_data_0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_0_reg[0]' (FDRE) to 'ptw/tags_0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_0_reg[1]' (FDRE) to 'ptw/tags_0_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_0_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_1_reg[0]' (FDRE) to 'ptw/tags_1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_1_reg[1]' (FDRE) to 'ptw/tags_1_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_1_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_2_reg[0]' (FDRE) to 'ptw/tags_2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_2_reg[1]' (FDRE) to 'ptw/tags_2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_2_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_3_reg[0]' (FDRE) to 'ptw/tags_3_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_3_reg[1]' (FDRE) to 'ptw/tags_3_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_3_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_4_reg[0]' (FDRE) to 'ptw/tags_4_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_4_reg[1]' (FDRE) to 'ptw/tags_4_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_4_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_5_reg[0]' (FDRE) to 'ptw/tags_5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_5_reg[1]' (FDRE) to 'ptw/tags_5_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_5_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_6_reg[0]' (FDRE) to 'ptw/tags_6_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_6_reg[1]' (FDRE) to 'ptw/tags_6_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_6_reg[2] )
+INFO: [Synth 8-3886] merging instance 'ptw/tags_7_reg[0]' (FDRE) to 'ptw/tags_7_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ptw/tags_7_reg[1]' (FDRE) to 'ptw/tags_7_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ptw/\tags_7_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/s1_pc_reg[0] )
+INFO: [Synth 8-3886] merging instance 'frontend/s2_partial_insn_reg[0]' (FDE) to 'frontend/s2_partial_insn_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\frontend/s2_partial_insn_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/s2_pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/fq/elts_4_pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/fq/elts_3_pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/fq/elts_2_pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/fq/elts_1_pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\frontend/fq/elts_0_pc_reg[0] )

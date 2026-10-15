@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/kv260_bd/ip/kv260_bd_proc_sys_reset_0_0/sim/kv260_bd_proc_sys_reset_0_0.vhd" \
+"../../../bd/kv260_bd/ip/kv260_bd_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_62a4_psr_aclk_0.vhd" \
+"../../../bd/kv260_bd/ip/kv260_bd_smartconnect_1_0/bd_0/ip/ip_1/sim/bd_a2f5_psr_aclk_0.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,270 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-6904] The RAM "bank/buffer/nodeOut_a_q/ram_ext/Memory_reg" of size (depth=2 x width=114) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-5544] ROM "_GEN" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-6904] The RAM "coh_wrapper/\l2/inclusive_cache_bank_sched /sinkC/c_q/ram_ext/Memory_reg" of size (depth=2 x width=110) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-5544] ROM "l2/ctrls/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l2/ctrls/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "coupler_to_memory_controller_port_named_axi4/tl2axi4/_GEN" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-6904] The RAM "cbus/wrapped_error_device/buffer/nodeOut_a_q/ram_ext/Memory_reg" of size (depth=2 x width=102) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[7] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[6] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[5] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[4] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[3] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[2] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[1] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_tl_in_a_bits_mask[0] in module TLInterconnectCoupler_cbus_to_bootrom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R0_en in module head_21x6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R0_clk in module head_21x6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W1_clk in module head_21x6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_rel_pop_bits_index[5] in module SinkC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_rel_pop_bits_index[4] in module SinkC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_rel_pop_bits_index[3] in module SinkC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_rel_pop_bits_index[2] in module SinkC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_rel_pop_bits_index[1] in module SinkC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R0_en in module head_40x6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R0_clk in module head_40x6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W1_clk in module head_40x6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_a_bits_address[30] in module SinkA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_pb_beat_corrupt in module SourceD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_rel_beat_corrupt in module SourceD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_req_bits_param[2] in module SourceB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[25] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[24] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[23] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[22] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[21] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[20] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[19] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[18] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[17] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[16] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[15] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[14] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[13] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[12] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[2] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[1] in module CoherenceManagerWrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_l2_ctrls_ctrl_in_a_bits_address[0] in module CoherenceManagerWrapper is either unconnected or has no load
+RAM Pipeline Warning: Read Address Register Found For RAM bank/ram/mem/mem_ext/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM bank/ram/mem/mem_ext/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM bank/ram/mem/mem_ext/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 8 will be used for URAM '"DigitalTop__GCB0/bank/ram/mem/mem_ext/ram_reg"'.
+INFO: [Synth 8-6904] The RAM "DigitalTop__GCB0/bank/buffer/nodeOut_a_q/ram_ext/Memory_reg" of size (depth=2 x width=113) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /sinkC/c_q/ram_ext/Memory_reg" of size (depth=2 x width=110) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_0/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_0/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_1/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_1/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_2/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_2/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_3/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_3/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_4/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_4/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_5/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_5/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_6/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_6/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_7/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+RAM ("\coh_wrapper/l2/inclusive_cache_bank_sched /directory/cc_dir/cc_dir_ext/mem_0_7/ram_reg") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg"'.
+INFO: [Synth 8-6904] The RAM "cbus/wrapped_error_device/buffer/nodeOut_a_q/ram_ext/Memory_reg" of size (depth=2 x width=102) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+RAM Pipeline Warning: Read Address Register Found For RAM bank/ram/mem/mem_ext/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 8 will be used for URAM '"DigitalTop__GCB0/bank/ram/mem/mem_ext/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5780] Default cascade height of 4 will be used for URAM '"\coh_wrapper/l2/inclusive_cache_bank_sched /bankedStore/cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg"'.
+RAM Pipeline Warning: Read Address Register Found For RAM bank/ram/mem/mem_ext/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_1/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_2/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_3/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_4/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_5/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_6/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_dir/cc_dir_ext/mem_0_7/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_0/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_1/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_2/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cc_banks_3/cc_banks_0_ext/mem_0_0/ram_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/l2/inclusive_cache_bank_sched/i_0/sourceA/io_a_q/ram_ext/Memory_reg_0_1_112_116 from module InclusiveCacheBankScheduler due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/l2/inclusive_cache_bank_sched/i_0/sourceA/io_a_q/ram_ext/Memory_reg_0_1_98_111 from module InclusiveCacheBankScheduler due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/l2/inclusive_cache_bank_sched/i_0/sourceA/io_a_q/ram_ext/Memory_reg_0_1_84_97 from module InclusiveCacheBankScheduler due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/l2/inclusive_cache_bank_sched/i_0/sourceA/io_a_q/ram_ext/Memory_reg_0_1_70_83 from module InclusiveCacheBankScheduler due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/l2/inclusive_cache_bank_sched/i_0/sourceA/io_a_q/ram_ext/Memory_reg_0_1_56_69 from module InclusiveCacheBankScheduler due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance cbus/wrapped_error_device/i_1/buffer/nodeIn_d_q/ram_ext/Memory_reg_0_1_56_69 from module ErrorDeviceWrapper due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance cbus/wrapped_error_device/i_1/buffer/nodeIn_d_q/ram_ext/Memory_reg_0_1_42_55 from module ErrorDeviceWrapper due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance cbus/wrapped_error_device/i_1/buffer/nodeIn_d_q/ram_ext/Memory_reg_0_1_28_41 from module ErrorDeviceWrapper due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__1/i_/coh_wrapper/cork/q/ram_ext/Memory_reg_0_1_14_27 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__2/i_/coh_wrapper/cork/q_1/ram_ext/Memory_reg_0_1_14_27 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__1/i_/coh_wrapper/cork/q/ram_ext/Memory_reg_0_1_70_79 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__2/i_/coh_wrapper/cork/q_1/ram_ext/Memory_reg_0_1_70_79 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__1/i_/coh_wrapper/cork/q/ram_ext/Memory_reg_0_1_56_69 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__2/i_/coh_wrapper/cork/q_1/ram_ext/Memory_reg_0_1_56_69 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__1/i_/coh_wrapper/cork/q/ram_ext/Memory_reg_0_1_42_55 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__2/i_/coh_wrapper/cork/q_1/ram_ext/Memory_reg_0_1_42_55 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__1/i_/coh_wrapper/cork/q/ram_ext/Memory_reg_0_1_28_41 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/__2/i_/coh_wrapper/cork/q_1/ram_ext/Memory_reg_0_1_28_41 from module DigitalTop__GCB0 due to constant propagation
+INFO: [Synth 8-3886] merging instance 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/req_r_opcode_reg[2]' (FDE) to 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/req_r_opcode_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[63]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[36]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[42]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[43]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[37]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[40]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[41]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[38]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[39]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[36]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[37]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[35]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[34]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[35]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[44]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[32]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[33]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[30]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[31]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[56]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[57]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[54]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[55]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[52]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[53]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[50]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[51]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[48]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[49]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[46]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[47]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[44]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[29]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[45]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[70]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[71]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[68]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[69]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[66]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[67]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[64]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[65]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[62]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[63]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[60]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[61]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[58]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[59]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[82]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[80]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[81]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[78]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[79]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[76]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[77]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[74]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[75]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[72]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[73]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[28]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[29]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[26]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[27]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[24]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[25]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[22]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[23]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[20]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[21]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[19]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[16]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[17]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[4]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[2]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[3]' (FDE) to 'cbus/coupler_to_l2_ctrl/buffer/nodeIn_d_q/ram_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cbus/coupler_to_l2_ctrl/\buffer/nodeIn_d_q/ram_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cbus/atomics/\cam_a_0_lut_reg[0] )
+INFO: [Synth 8-3886] merging instance 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg_rep[0]' (FDRE) to 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg[0]'
+INFO: [Synth 8-3886] merging instance 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg_rep[1]' (FDRE) to 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg[1]'
+INFO: [Synth 8-3886] merging instance 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg_rep[2]' (FDRE) to 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg[2]'
+INFO: [Synth 8-3886] merging instance 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg_rep[3]' (FDRE) to 'coh_wrapper/l2/inclusive_cache_bank_sched/sourceC/queue/deq_ptr_value_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /sinkC/\io_bs_adr_q/ram_reg[17] )
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[64]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[65]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[65]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[66]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[66]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[67]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[67]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[68]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[68]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[69]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[69]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[70]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[70]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/nodeOut_w_deq_q/ram_reg[71]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[57]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[64]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[58]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[59]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[60]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[54]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[47]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[55]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[56]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[50]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[51]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[52]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[53]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[49]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[47] )
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[48]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[40]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[41]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[42]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[43]' (FDE) to 'mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[5]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/InclusiveCache_inner_TLBuffer/nodeIn_d_q/ram_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_0/request_prio_1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_6/request_prio_1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_5/request_prio_1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_4/request_prio_1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_3/request_prio_1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_2/request_prio_1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\coh_wrapper/l2/inclusive_cache_bank_sched /mshrs_1/request_prio_1_reg)
+INFO: [Synth 8-7067] Removed DRAM instance coh_wrapper/l2/inclusive_cache_bank_sched/i_0/sourceA/io_a_q/ram_ext/Memory_reg_0_1_112_116 from module InclusiveCacheBankScheduler due to constant propagation
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\bank/fragmenter/repeater/saved_address_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mbus/coupler_to_memory_controller_port_named_axi4/tl2axi4/queue_arw_deq_q/ram_reg[46] )

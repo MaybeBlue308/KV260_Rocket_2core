@@ -1,0 +1,8 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.

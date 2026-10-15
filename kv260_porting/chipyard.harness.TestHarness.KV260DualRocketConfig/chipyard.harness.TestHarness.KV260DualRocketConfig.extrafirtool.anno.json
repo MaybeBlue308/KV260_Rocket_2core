@@ -1,0 +1,14 @@
+[
+	{
+		"class":"sifive.enterprise.firrtl.MarkDUTAnnotation",
+		"target":"~TestHarness|ChipTop"
+	},
+	{
+		"class": "sifive.enterprise.firrtl.TestHarnessHierarchyAnnotation",
+		"filename": "/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/model_module_hierarchy.json"
+	},
+	{
+		"class": "sifive.enterprise.firrtl.ModuleHierarchyAnnotation",
+		"filename": "/data/workspaces/khoant17/workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.KV260DualRocketConfig/top_module_hierarchy.json"
+	}
+]

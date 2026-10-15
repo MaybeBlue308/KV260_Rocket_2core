@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Oct 15 09:17:49 2026
+# Process ID         : 1821568
+# Current directory  : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_zynq_ultra_ps_e_0_0_synth_1
+# Command line       : vivado -log kv260_bd_zynq_ultra_ps_e_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_bd_zynq_ultra_ps_e_0_0.tcl
+# Log file           : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_zynq_ultra_ps_e_0_0_synth_1/kv260_bd_zynq_ultra_ps_e_0_0.vds
+# Journal file       : /ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/rocket_kv260_lnx/rocket_kv260.runs/kv260_bd_zynq_ultra_ps_e_0_0_synth_1/vivado.jou
+# Running On         : vsi.es
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-14900
+# CPU Frequency      : 3146.470 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 67087 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 75677 MB
+# Available Virtual  : 36263 MB
+#-----------------------------------------------------------
+source kv260_bd_zynq_ultra_ps_e_0_0.tcl -notrace

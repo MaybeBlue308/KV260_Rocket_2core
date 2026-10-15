@@ -1,0 +1,32 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 10. [/ssd3/workspaces-ssd/khoant17/workspace/kv260_porting/chipyard.harness.TestHarness.KV260DualRocketConfig/gen-collateral/MulAddRecFNPipe_l2_e11_s53.sv:133]
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: PCIN+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: PCIN+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: PCIN+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: Generating DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1, operation Mode is: PCIN+A*B.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+DSP Report: operator mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1 is absorbed into DSP mulAddRecFNToRaw_postMul_io_mulAddResult_pipe_b1.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\fpmu/io_out_pipe_b_exc_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dfma/io_out_pipe_b_exc_reg[3] )

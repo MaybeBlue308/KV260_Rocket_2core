@@ -1,0 +1,229 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+WARNING: [Synth 8-3917] design DigitalTop__GCB2 has port _tileHartIdNexusNode_auto_out_1 driven by constant 1
+WARNING: [Synth 8-3917] design DigitalTop__GCB2 has port _tileHartIdNexusNode_auto_out_0 driven by constant 0
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[7] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[6] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[5] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[4] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[3] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[2] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_mask[1] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[63] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[62] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[61] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[60] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[59] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[58] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[57] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[56] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[55] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[54] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[53] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[52] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[51] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[50] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[49] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[48] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[47] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[46] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[45] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[44] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[43] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[42] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[41] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[40] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[39] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[38] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[37] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[36] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[35] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[34] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[33] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[32] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[31] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[30] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[29] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[28] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[27] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[26] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[25] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[24] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[23] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[22] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[21] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[20] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[19] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[18] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[17] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[16] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[15] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[14] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[13] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[12] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[11] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[10] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[9] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[8] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[7] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[6] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[5] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[4] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[3] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[2] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_xbar_anon_in_a_bits_data[1] in module ChipyardPRCICtrlClockSinkDomain is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_opcode[2] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_opcode[1] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_opcode[0] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_param[1] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_param[0] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_size[3] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_size[2] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_size[1] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_size[0] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_sink[2] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_sink[1] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port auto_out_d_bits_sink[0] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[127] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[126] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[125] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[124] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[123] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[122] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[121] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[120] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[119] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[118] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[117] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[116] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[115] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[114] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[113] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[112] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[111] in module SBToTL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_dataIn[110] in module SBToTL is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeIn_d_source/mem_0_opcode_reg[1]' (FDE) to 'tlDM/dmInner/dmiXing/nodeIn_d_source/mem_0_opcode_reg[2]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[41]' (FDE) to 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[42]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmInner/dmiXing/nodeIn_d_source/mem_0_opcode_reg[2] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[42]' (FDE) to 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[34]' (FDE) to 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[38]' (FDE) to 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[39]' (FDE) to 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[63]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[0]' (FDE) to 'tlDM/dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[33]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmOuter/asource/nodeIn_d_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[33] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeOut_a_source/mem_0_opcode_reg[0]' (FDE) to 'tlDM/dmOuter/asource/nodeOut_a_source/mem_0_opcode_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeOut_a_source/mem_0_address_reg[0]' (FDE) to 'tlDM/dmOuter/asource/nodeOut_a_source/mem_0_opcode_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/asource/nodeOut_a_source/mem_0_address_reg[1]' (FDE) to 'tlDM/dmOuter/asource/nodeOut_a_source/mem_0_opcode_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[38]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[52]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[37]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[52]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[52]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmOuter/asource/nodeOut_a_source/mem_0_opcode_reg[1] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[0]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[46]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[47]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[49]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[50]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[51]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[62]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[35]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[59]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[57]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[58]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[56]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[51]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[50]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[47]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[48]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[46] )
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[41]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[42]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]'
+INFO: [Synth 8-3886] merging instance 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[39]' (FDE) to 'sbus/coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[40]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[40] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[12]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[14]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[13]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[8]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[9]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[10]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[11]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[2]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[3]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[0]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[1]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[4]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[6]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[4]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[7]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[4]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[4]' (FDCE) to 'tlDM/dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmOuter/dmOuter/HAWINDOWSELReg_hawindowsel_reg[5] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[33]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[34]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[48]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[34]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[34]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[35]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[35]' (FDE) to 'tlDM/dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[36]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[27]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[28]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[28]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[29]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (tlDM/\dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[36] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[0]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (tlDM/\dmInner/dmInner /\abstractGeneratedMem_0_reg[1] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[2]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[3]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[6]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[15]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[16]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[17]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[18]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[19]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[25]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[26]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[26]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[30]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[30]' (FDE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_0_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmInner/dmInner /\abstractGeneratedMem_0_reg[31] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[0]' (FDSE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[1]' (FDSE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[2]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[3]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (tlDM/\dmInner/dmInner /\abstractGeneratedMem_1_reg[4] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[5]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[6]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[7]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[8]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[9]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[10]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[11]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[12]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[13]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[14]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[15]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[16]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[17]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[18]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[19]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[21]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[22]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[23]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[24]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[25]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[26]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[27]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[28]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[29]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[30]' (FDRE) to 'tlDM/dmInner/dmInner/abstractGeneratedMem_1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmInner/dmInner /\abstractGeneratedMem_1_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (tlDM/\dmOuter/dmiBypass/error/idle_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap_6/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap_5/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap_4/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap_3/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap_2/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap_1/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/axi4yank/Queue1_BundleMap/ram_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmInner/dmiXing/nodeOut_a_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[53] )
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[8]' (FDE) to 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[14]' (FDE) to 'tlDM/dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[9]' (FDE) to 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[15]' (FDE) to 'tlDM/dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[7]' (FDE) to 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[13]' (FDE) to 'tlDM/dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[6]' (FDE) to 'tlDM/dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmOuter/io_innerCtrl_source/mem_0_hartsel_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tlDM/\dmInner/dmactive_synced_dmInner_io_innerCtrl_sink/io_deq_bits_deq_bits_reg/cdc_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sbus/\coupler_to_port_named_mmio_port_axi4/tl2axi4/queue_arw_deq_q/ram_reg[45] )
